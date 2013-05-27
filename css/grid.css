@@ -1,0 +1,106 @@
+/* 
+GRID V1.0
+Copyright 2013, Ed Chao
+A css fluid grid for furious belly dancers.
+Note: Use grid only for macro positioning. Do not add additional classes to a div with a grid class.
+*/
+
+
+/* Base 100%
+======================================================== */
+.container { position:relative; width:70%; max-width:960px; margin: 0 auto; padding: 0;}
+
+.column, .columns { float: left; display: inline; margin-left: 1%; margin-right: 1%; }
+
+/* Nested Column Classes */
+.column.front, .columns.front                 { margin-left: 0; }
+.column.back, .columns.back                   { margin-right: 0; }
+
+.one.column                                   { width: 3%; }
+.two.columns                                  { width: 8%; }
+.three.columns                                { width: 13%; }
+.four.columns                                 { width: 18%; }
+.five.columns                                 { width: 23%; }
+.six.columns                                  { width: 28%; }
+.seven.columns                                { width: 33%; }
+.eight.columns                                { width: 38%; }
+.nine.columns                                 { width: 43%; }
+.ten.columns                                  { width: 48%; }
+.eleven.columns                               { width: 53%; }
+.twelve.columns                               { width: 58%; }
+.thirteen.columns                             { width: 63%; }
+.fourteen.columns                             { width: 68%; }
+.fifteen.columns                              { width: 73%; }
+.sixteen.columns                              { width: 78%; }
+.seventeen.columns                            { width: 83%; }
+.eighteen.columns                             { width: 88%; }
+.nineteen.columns                             { width: 93%; }
+.twenty.columns                               { width: 98%; }
+.half.column                                  { width: 48%; } 
+.one-third.column                             { width: 31.333%; }  
+.two-thirds.column                            { width: 64.666%;}
+
+
+.alpha                                        { margin-left:0px; }
+.omega                                        { margin-right:0px; }
+
+
+/* 300 Mobile
+======================================================== */
+ @media only screen and (min-width: 300px) and (max-width: 479px) {
+  
+  .container { position:relative; width:100%; margin: 0 auto; padding: 0;}
+
+  .one.column,                                   
+  .two.columns,                                  
+  .three.columns,                                
+  .four.columns,                                 
+  .five.columns,                                 
+  .six.columns,                                  
+  .seven.columns,                                
+  .eight.columns,                                
+  .nine.columns,                       
+  .ten.columns,                       
+  .eleven.columns,                              
+  .twelve.columns,                               
+  .thirteen.columns,                             
+  .fourteen.columns,                            
+  .fifteen.columns,                              
+  .sixteen.columns                             { width: 98%; }  
+  
+  
+}
+
+
+
+/* #Clearing (taken from Dave Gamache)
+================================================== */
+
+    /* Self Clearing Goodness */
+    .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility:hidden;}
+    
+    /* Use clearfix class on parent to clear nested columns */
+    .clearfix:before,
+    .clearfix:after {
+      content: '\0020';
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0; }
+    .clearfix:after {
+      clear: both; }
+    .clearfix {
+      zoom: 1; }
+
+    /* You can also use a <br class="clear" /> to clear columns */
+    .clear {
+      clear: both;
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0;
+    }
+
+
