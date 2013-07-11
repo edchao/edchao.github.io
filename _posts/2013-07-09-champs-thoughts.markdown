@@ -6,6 +6,8 @@ categories: thoughts
 
 ---
 
+![Champs:Battlegrounds]({{edchao.github.io}}/assets/img_champs_map.jpg)
+
 So I've been working on this little game called Champs : Battlegrounds. For the gamers out there it's kind of like a tactics game without turns.  Quark is calling it a Multiplayer Online Squad Strategy game.  It's one of the few "new" things that is actually coming to mobile + tablet first.  Most games on mobile are just silly ports from desktop (i.e. farmville, restaurant city, league of legends). 
 
 I thought it'd be helpful for me, and hopefully encouraging to others for me to start recording my learnings and processes as my team prepares to launch this game into the nether.  
