@@ -39,46 +39,45 @@ $(document).ready(function(){
   
   // LOGO - HOVER BEHAVIOR
 
-	$('.logo').on('mouseover click', function(){
-    console.log('hi');
+	$('.logo').on('mouseover', function(){
     $('#filters').append($foo);
 		$('#filters').css({'padding-top':'8px', 'opacity':'1'});
 	});
 	$('.nav').on('mouseleave click', function(){
 		$('#filters').css({'padding-top':'0px', 'opacity':'0'});
-    $('#filters').remove($foo);
+    $foo.setTimeout(1000).remove();
 	});
 
 
-	$('.filter.all').on('click', function(){
-		$('.logo').css({'background-position':'0px 0px'});
-	});
-	$('.filter.all').hover(function(){
+
+	$('body').on('mouseover','.filter.stream', function(){
+    console.log('hi');
 		$(this).children('.popover').css({'visibility':'visible'});
-	},function(){
-		$(this).children('.popover').css({'visibility':'hidden'});
 	});
+  $('body').on('mouseleave', '.filter.stream', function(){
+    $(this).children('.popover').css({'visibility':'hidden'});
+  });
 
 	
-	$('.filter.img').on('click', function(){
-		$('.logo').css({'background-position':'0px -102px'});
-	});
-	$('.filter.img').hover(function(){
+
+	$('body').on('mouseover','.filter.archive', function(){
+    console.log('hi');
 		$(this).children('.popover').css({'visibility':'visible'});
-	},function(){
-		$(this).children('.popover').css({'visibility':'hidden'});
 	});
+  $('body').on('mouseleave', '.filter.archive', function(){
+    $(this).children('.popover').css({'visibility':'hidden'});
+  });
+
 	
 	
-	$('.filter.text').on('click', function(){
-		$('.logo').css({'background-position':'0px -50px'});
-	});
-	$('.filter.text').hover(function(){
+	$('body').on('mouseover','.filter.about', function(){
+    console.log('hi');
 		$(this).children('.popover').css({'visibility':'visible'});
-	},function(){
-		$(this).children('.popover').css({'visibility':'hidden'});
 	});
-	
+  $('body').on('mouseleave', '.filter.about', function(){
+    $(this).children('.popover').css({'visibility':'hidden'});
+  });
+  
   
 	$('.network.dribbble').hover(function(){
 		$(this).children('.popover').css({'visibility':'visible'});
