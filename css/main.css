@@ -82,7 +82,7 @@
 }
 
 
-.filter.all {
+.filter.stream {
 	background: url('../img/options_b.png') 0px 0px no-repeat;
 	height: 50px;
 	text-indent: -9999999px;
@@ -90,16 +90,7 @@
 }
 
 
-.filter.img {
-	background: url('../img/options_b.png') 0px -100px no-repeat;
-	height: 50px;
-	text-indent: -9999999px;
-	opacity: 0.6;
-}
-
-
-
-.filter.text {	
+.filter.archive {
 	background: url('../img/options_b.png') 0px -50px no-repeat;
 	height: 50px;
 	text-indent: -9999999px;
@@ -107,7 +98,16 @@
 }
 
 
-.filter.all:hover, .filter.img:hover, .filter.text:hover {
+
+.filter.about {	
+	background: url('../img/options_b.png') 0px -102px no-repeat;
+	height: 50px;
+	text-indent: -9999999px;
+	opacity: 0.6;
+}
+
+
+.filter.stream:hover, .filter.archive:hover, .filter.about:hover {
 	opacity: 1.0;
 }
 
