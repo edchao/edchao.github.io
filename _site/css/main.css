@@ -21,6 +21,10 @@
   display:hidden;
 }
 
+ul,ol {
+  list-style-type:decimal;
+}
+
 /*--------------------------
           #NAV
 --------------------------*/

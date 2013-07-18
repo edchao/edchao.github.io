@@ -11,6 +11,8 @@
 		display: block; }
 	body {
 		line-height: 1; }
+	ol, ul {
+		list-style: none; }
 	blockquote, q {
 		quotes: none; }
 	blockquote:before, blockquote:after,
@@ -31,9 +33,7 @@
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
  }
-ol, ul {
-  margin-bottom:20px;
-}
+
 
 /* #Typography
 ================================================== */
