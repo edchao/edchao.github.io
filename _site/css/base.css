@@ -11,8 +11,6 @@
 		display: block; }
 	body {
 		line-height: 1; }
-	ol, ul {
-		list-style: none; }
 	blockquote, q {
 		quotes: none; }
 	blockquote:before, blockquote:after,
@@ -35,7 +33,6 @@
  }
 ol, ul {
   margin-bottom:20px;
-	list-style-type: upper-roman; 
 }
 
 /* #Typography
