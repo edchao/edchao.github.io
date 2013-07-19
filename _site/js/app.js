@@ -45,13 +45,14 @@ $(document).ready(function(){
 	});
 	$('.nav').on('mouseleave click', function(){
 		$('#filters').css({'padding-top':'0px', 'opacity':'0'});
-    $foo.setTimeout(1000).remove();
+    setTimeout(function() {
+      $foo.remove();
+    }, 1000);
 	});
 
 
 
 	$('body').on('mouseover','.filter.stream', function(){
-    console.log('hi');
 		$(this).children('.popover').css({'visibility':'visible'});
 	});
   $('body').on('mouseleave', '.filter.stream', function(){
@@ -61,7 +62,6 @@ $(document).ready(function(){
 	
 
 	$('body').on('mouseover','.filter.archive', function(){
-    console.log('hi');
 		$(this).children('.popover').css({'visibility':'visible'});
 	});
   $('body').on('mouseleave', '.filter.archive', function(){
@@ -71,7 +71,6 @@ $(document).ready(function(){
 	
 	
 	$('body').on('mouseover','.filter.about', function(){
-    console.log('hi');
 		$(this).children('.popover').css({'visibility':'visible'});
 	});
   $('body').on('mouseleave', '.filter.about', function(){

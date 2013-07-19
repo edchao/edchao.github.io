@@ -54,7 +54,7 @@ ul,ol {
   font-weight: bold;
   line-height: 48px;
   text-align: center;
-  transition: all .5s;
+  //transition: all .5s;
   
 }
 
@@ -228,3 +228,39 @@ ul,ol {
   line-height:44px;
   font-weight:300;
 }
+
+
+/* 300 Mobile NAV
+======================================================== */
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+  
+.nav {
+ position: fixed;
+ z-index: 999;
+ left: 0px;
+ width: 100%;
+ background:#000;
+ margin: 0px;
+}
+
+.logo {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 0px;
+  overflow: hidden;
+  border: none;
+  background: url('../img/options_w.png') 0px 0px no-repeat;
+  background-color:#000;
+  font: 24px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: transparent;
+  font-weight: bold;
+  line-height: 48px;
+  text-align: center;
+  
+}
+  
+}
+
