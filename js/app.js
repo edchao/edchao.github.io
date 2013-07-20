@@ -45,10 +45,16 @@ $(document).ready(function(){
 	});
 	$('.nav').on('mouseleave click', function(){
 		$('#filters').css({'padding-top':'0px', 'opacity':'0'});
-    setTimeout(function() {
-      $foo.remove();
-    }, 1000);
 	});
+  $('#filters').on('transitionend', function(){
+    if($('#filters').css('padding-top') == '0px'){
+      $foo.remove();
+    };
+  });
+  
+  
+
+
 
 
 
