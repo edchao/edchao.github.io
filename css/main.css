@@ -54,7 +54,7 @@ ul,ol {
   font-weight: bold;
   line-height: 48px;
   text-align: center;
-  //transition: all .5s;
+  transition: background-position .5s;
   
 }
 
@@ -239,28 +239,79 @@ ul,ol {
  z-index: 999;
  left: 0px;
  width: 100%;
- background:#000;
+ background:#fff;
+ border-bottom:1px solid #d0d0d0;
  margin: 0px;
+ transition: height .8s;;
+}
+  
+
+#filters {
+  position:relative;
+ z-index: 999;
+ left: 0px;
+ width: 100%;
+ background:#fff;
+ margin: 0px;
+}
+
+.filter {
+  cursor: pointer;
+  display: block;
+  margin-top: 0px;
+  padding: 0px;
+  border-radius: 2px;
+  border: none;
+  font-weight: bold;
+  line-height: 48px;
+  text-align: center;
+}
+
+.filter a{
+  text-decoration:none;
 }
 
 .logo {
   cursor: pointer;
-  height: 50px;
-  width: 50px;
-  margin: 0px;
+  height: 38px;
+  width: 38px;
+  margin: 0px auto 0px auto;
   padding: 0px;
   border-radius: 0px;
   overflow: hidden;
   border: none;
-  background: url('../img/options_w.png') 0px 0px no-repeat;
-  background-color:#000;
+  background: url('../img/options_b_sm.png') 0px 0px no-repeat;
+  background-color:transparent;
   font: 24px "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: transparent;
   font-weight: bold;
   line-height: 48px;
-  text-align: center;
+  text-align: left;
+  transition: none;
   
 }
+
+.networks {
+  display:none;
+}
   
+
+.filter.stream, .filter.archive, .filter.about {
+  margin:none;
+	background: none;
+  //border-top:1px solid #f1f1f1;
+	text-indent: 0px;
+	opacity: 0.6;
+}
+
+
+.filter.stream:hover, .filter.archive:hover, .filter.about:hover {
+	opacity: 1.0;
+}
+
+.popover {
+  display:none;
+} 
+
 }
 

@@ -43,7 +43,14 @@ $(document).ready(function(){
     $('#filters').append($foo);
 		$('#filters').css({'padding-top':'8px', 'opacity':'1'});
 	});
-	$('.nav').on('mouseleave click', function(){
+	$('.logo').on('click', function(){
+    $('#filters').append($foo);
+		$('#filters').css({'padding-top':'8px', 'opacity':'1'});
+	});
+	$('.nav').on('mouseleave', function(){
+		$('#filters').css({'padding-top':'0px', 'opacity':'0'});
+	});
+	$('body').on('click', function(){
 		$('#filters').css({'padding-top':'0px', 'opacity':'0'});
 	});
   $('#filters').on('transitionend', function(){
