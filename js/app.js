@@ -1,15 +1,9 @@
 $(document).ready(function(){
 
-/*BEHAVIOR
-	- On hover
-		- show and animate options
-		-  
-	- clicking on option
-		- sets the filter to the option
-		- hides filter
-	
-*/	
-  
+  // GLOBAL VARIABLES
+
+
+  var window_width = $(window).width();
   var current_href = $(location).attr('href');
   var current_title = $(document).attr('title');
   $foo = $('<a href="/index.html"><div class="filter stream">Stream<div class="popover">stream</div></div></a> <a href="/archive.html"><div class="filter archive">Archive<div class="popover">archives</div></div></a><a href="/about.html"><div class="filter about">About<div class="popover">@edchao</div></div></a>'); 
@@ -25,15 +19,53 @@ $(document).ready(function(){
   
   // LOGO -  ICON SELECTION
   
-  if(current_title=='edchao - Stream'){
-    $('.logo').css({'background-position':'0px 0px'});
-  }else if(current_title=='edchao - Archive'){
-    $('.logo').css({'background-position':'0px -50px'}); 
-  }else if(current_title=='edchao - About'){
-    $('.logo').css({'background-position':'0px -102px'}); 
+  if (window_width <= 479){
+    if(current_title=='edchao - Stream'){
+      $('.logo').css({'background-position':'0px 0px'});
+    }else if(current_title=='edchao - Archive'){
+      $('.logo').css({'background-position':'0px -39px'}); 
+    }else if(current_title=='edchao - About'){
+      $('.logo').css({'background-position':'0px -78px'}); 
+    }else {
+      $('.logo').css({'background-position':'0px 0px'});
+    }
   }else {
-    $('.logo').css({'background-position':'0px 0px'});
+    if(current_title=='edchao - Stream'){
+      $('.logo').css({'background-position':'0px 0px'});
+    }else if(current_title=='edchao - Archive'){
+      $('.logo').css({'background-position':'0px -50px'}); 
+    }else if(current_title=='edchao - About'){
+      $('.logo').css({'background-position':'0px -102px'}); 
+    }else {
+      $('.logo').css({'background-position':'0px 0px'});
+    }
   }
+  
+  $(window).on('resize', function(){
+    window_width = $(window).width();
+    if (window_width <= 479){
+      if(current_title=='edchao - Stream'){
+        $('.logo').css({'background-position':'0px 0px'});
+      }else if(current_title=='edchao - Archive'){
+        $('.logo').css({'background-position':'0px -39px'}); 
+      }else if(current_title=='edchao - About'){
+        $('.logo').css({'background-position':'0px -78px'}); 
+      }else {
+        $('.logo').css({'background-position':'0px 0px'});
+      }
+    }else{
+      if(current_title=='edchao - Stream'){
+        $('.logo').css({'background-position':'0px 0px'});
+      }else if(current_title=='edchao - Archive'){
+        $('.logo').css({'background-position':'0px -50px'}); 
+      }else if(current_title=='edchao - About'){
+        $('.logo').css({'background-position':'0px -102px'}); 
+      }else {
+        $('.logo').css({'background-position':'0px 0px'});
+      }
+    }
+  });
+
   
 
   
@@ -43,16 +75,11 @@ $(document).ready(function(){
     $('#filters').append($foo);
 		$('#filters').css({'padding-top':'8px', 'opacity':'1'});
 	});
-	$('.logo').on('click', function(){
-    $('#filters').append($foo);
-		$('#filters').css({'padding-top':'8px', 'opacity':'1'});
-	});
+
 	$('.nav').on('mouseleave', function(){
 		$('#filters').css({'padding-top':'0px', 'opacity':'0'});
 	});
-	$('body').on('click', function(){
-		$('#filters').css({'padding-top':'0px', 'opacity':'0'});
-	});
+
   $('#filters').on('transitionend', function(){
     if($('#filters').css('padding-top') == '0px'){
       $foo.remove();
@@ -60,9 +87,16 @@ $(document).ready(function(){
   });
   
   
+  // CLICK - BEHAVIOR
+  
+	$('.logo').on('click', function(){
+    $('#filters').append($foo);
+		$('#filters').css({'padding-top':'8px', 'opacity':'1'});
+	});
 
-
-
+	$('body').on('click', function(){
+		$('#filters').css({'padding-top':'0px', 'opacity':'0'});
+	});
 
 
 	$('body').on('mouseover','.filter.stream', function(){
@@ -72,7 +106,8 @@ $(document).ready(function(){
     $(this).children('.popover').css({'visibility':'hidden'});
   });
 
-	
+
+  // POPOVER - BEHAVIOR
 
 	$('body').on('mouseover','.filter.archive', function(){
 		$(this).children('.popover').css({'visibility':'visible'});

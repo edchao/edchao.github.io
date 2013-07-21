@@ -76,6 +76,33 @@ Note: Use grid only for macro positioning. Do not add additional classes to a di
 ======================================================== */
  @media only screen and (min-width: 300px) and (max-width: 479px) {
   
+   /* Horizontal Grid
+   ======================================================== */
+
+   .brick, .bricks { margin:none; }
+   .one.brick { height: 5px; }
+   .two.bricks { height: 10px; }
+   .three.bricks { height: 15px; }
+   .four.bricks { height: 20px; }
+   .five.bricks { height: 25px; }
+   .six.bricks { height: 30px; }
+   .seven.bricks { height: 35px; }
+   .eight.bricks { height: 40px; }
+   .nine.bricks { height: 45px; }
+   .ten.bricks { height: 50px; }
+   .eleven.bricks { height: 55px; }
+   .twelve.bricks { height: 60px; }
+   .thirteen.bricks { height: 65px; }
+   .fourteen.bricks { height: 70px; }
+   .fifteen.bricks { height: 75px; }
+   .sixteen.bricks { height: 80px; }
+   .seventeen.bricks { height: 85px; }
+   .eighteen.bricks { height: 90px; }
+   .nineteen.bricks { height: 95px; }
+   .twenty.bricks { height: 100px; }
+   .forty.bricks { height: 200px; }
+  
+  
   .container { position:relative; width:100%; margin: 0 auto; padding: 0;}
 
   .one.column,                                   

@@ -286,9 +286,7 @@ ul,ol {
   color: transparent;
   font-weight: bold;
   line-height: 48px;
-  text-align: left;
-  transition: none;
-  
+  text-align: left;  
 }
 
 .networks {
