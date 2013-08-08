@@ -90,8 +90,14 @@ $(document).ready(function(){
   // CLICK - BEHAVIOR
   
 	$('.logo').on('click', function(){
-    $('#filters').append($foo);
-		$('#filters').css({'padding-top':'8px', 'opacity':'1'});
+    if($('#filters').length){
+      console.log('got length');
+        $foo.remove();
+    }else{
+      console.log('aint got length');
+      $('#filters').append($foo);
+  		$('#filters').css({'padding-top':'8px', 'opacity':'1'});
+    }
 	});
 
 	$('body').on('click', function(){
