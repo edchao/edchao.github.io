@@ -88,17 +88,18 @@ $(document).ready(function(){
   
   
   // CLICK - BEHAVIOR
-  
+
 	$('.logo').on('click', function(){
     if($('#filters').length){
       console.log('got length');
-        $foo.remove();
+        //$foo.remove();
     }else{
       console.log('aint got length');
       $('#filters').append($foo);
   		$('#filters').css({'padding-top':'8px', 'opacity':'1'});
     }
 	});
+
 
 	$('body').on('click', function(){
 		$('#filters').css({'padding-top':'0px', 'opacity':'0'});
