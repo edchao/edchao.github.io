@@ -1,0 +1,192 @@
+/*Convention
+- Display
+- Position
+- Height
+- Width
+- Margin
+- Padding
+- Border
+- Background
+- Font
+- Color
+- Font weight
+- Line height
+- Text-align
+*/
+
+/*--------------------------
+          #BODY
+--------------------------*/
+.container {
+  display:hidden;
+}
+
+ul,ol {
+  list-style-type:decimal;
+  margin-bottom:20px;
+  padding-left:40px;
+}
+
+
+hr  { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 0px; height: 0; }
+
+/*--------------------------
+          #SCROLLLABEL
+--------------------------*/
+#sLabel {
+  position:absolute;
+  z-index:999;
+  top:0px;
+  right:20px;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+#sLabel .content {
+  padding:10px;
+  width:150px;
+  color:#fff;
+  background-color:#000;
+  border-radius:2px;
+
+}
+
+#sLabel .arrow {
+  position:relative;
+}
+
+#sLabel .arrow:after{
+content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 170px;
+  top:-30px;
+  border: 8px solid;
+  border-color: transparent transparent transparent #000;
+}
+
+
+/*--------------------------
+          #NAV
+--------------------------*/
+
+.nav {
+  position: fixed;
+  z-index: 999;
+  left: 0px;
+  width: 50px;
+  margin: 10px;
+}
+
+.logo {
+  cursor: pointer;
+  height: 50px;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 2px;
+  overflow: hidden;
+  border: none;
+  background: url('../img/options_w.png') 0px 0px no-repeat;
+  background-color:#000;
+  font: 24px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: transparent;
+  font-weight: bold;
+  line-height: 48px;
+  text-align: center;
+  transition: background-position .5s;
+  
+}
+
+
+/*--------------------------
+         GENERAL
+--------------------------*/
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight:300;
+}
+
+.gray {
+  background-color:#444;
+}
+
+#banner {
+  color : #fff;
+  background-color:#888;
+  margin:none;
+
+}
+
+.banner_img{
+  position:absolute;
+  //background-image: url(../img/banner.jpg);
+  background-position: 0px -500px;
+  background-size: 100%;
+  //height:400px;
+  width:100%;
+  -webkit-filter: blur(5px);
+  overflow:hidden;
+}
+
+.meta {
+  position:absolute;
+  top:50%;
+  margin-top:-5em;
+
+}
+
+.intro {
+  font-size: 54px;
+  color:#fff;
+}
+
+
+.title {
+  font-size:35px;
+}
+
+
+.section {
+  min-height:300px;
+  padding:40px 0px;
+}
+
+
+/*--------------------------
+         CIRCLE GRAPH
+--------------------------*/
+
+
+.circle_graph {
+  float:left;
+  height:150px;
+  width:150px;
+  margin-right:10px;
+  border-radius: 150px;
+  background-color:#e0e0e0;
+}
+
+.circle {
+  position:relative;
+  left:5px;
+  top:5px;
+  background-color:#454545;
+  width:140px;
+  height:140px;
+  border-radius:140px;
+}
+
+.pie {
+    width:200px;
+    height:200px;
+    left:50px;
+    -moz-transform-origin:center center;
+    -ms-transform-origin:center center;
+    -o-transform-origin:center center;
+    -webkit-transform-origin:center center;
+    transform-origin:center center;
+}
+
+
