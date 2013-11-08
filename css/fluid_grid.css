@@ -31,11 +31,15 @@ Note: Use grid only for macro positioning. Do not add additional classes to a di
 .nineteen.bricks { height: 190px; }
 .twenty.bricks { height: 200px; }
 .forty.bricks { height: 400px; }
+.sixty.bricks { height: 600px; }
+.seventy.bricks { height: 700px; }
+.eighty.bricks { height: 800px; }
+
 
 
 /* Base 100%
 ======================================================== */
-.container, .row { position:relative; width:90%; max-width:1000px; min-width:600px; margin: 0 auto; padding: 0;}
+.container, .row { position:relative; width:90%; max-width:1000px; min-width:301px; margin: 0 auto; padding: 0;}
 
 
 
@@ -76,7 +80,7 @@ Note: Use grid only for macro positioning. Do not add additional classes to a di
 .omega                                        { margin-right:0px; }
 
 
-/* 300 Mobile
+ 300 Mobile
 ======================================================== 
  @media only screen and (min-width: 300px) and (max-width: 780px) {
   
@@ -102,7 +106,6 @@ Note: Use grid only for macro positioning. Do not add additional classes to a di
   
   
 }
-*/
 
 
 /* #Clearing (taken from Dave Gamache)

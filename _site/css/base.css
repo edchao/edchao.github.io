@@ -128,3 +128,12 @@ hr 			{ border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 40px 0; 
   box-shadow: 0px 0px 1px #555;
   overflow:hidden;
 }
+
+
+.bb{
+	box-sizing: border-box; /* css3 rec */
+  	-moz-box-sizing: border-box; /* ff2 */
+ 	-ms-box-sizing: border-box; /* ie8 */
+  	-webkit-box-sizing: border-box; /* safari3 */
+ 	-khtml-box-sizing: border-box; /* konqueror */
+}

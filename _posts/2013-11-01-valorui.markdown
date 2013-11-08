@@ -1,0 +1,11 @@
+---
+layout: article
+title:  "Valor UI"
+date:   2013-11-01 13:57:09
+categories: ui
+
+---
+Flash from the past! A brief look into valor UI.  
+
+![ValorUI]({{edchao.github.io}}/assets/img_valor_ui.jpg)
+
