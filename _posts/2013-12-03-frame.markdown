@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "Frame Boilerplate"
+title:  "Frame Grid"
 date:   2013-11-07 13:57:09
 categories: ui
 
