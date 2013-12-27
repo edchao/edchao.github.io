@@ -142,6 +142,7 @@ nav a:hover{
 
 header {
 background-image: url('../img/cover4.jpg');
+background-color:#d9d9d9;
 background-position: top;
 padding-top:50px;
    display: -webkit-flex;
