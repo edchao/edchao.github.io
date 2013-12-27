@@ -1,145 +1,80 @@
 $(document).ready(function(){
 
-  // GLOBAL VARIABLES
 
 
-  var window_width = $(window).width();
-  var current_href = $(location).attr('href');
-  var current_title = $(document).attr('title');
-  $foo = $('<a href="/index.html"><div class="filter stream">Stream<div class="popover">stream</div></div></a> <a href="/archive.html"><div class="filter archive">Archive<div class="popover">archives</div></div></a><a href="/about.html"><div class="filter about">About<div class="popover">@edchao</div></div></a>'); 
-  $('button').on('click', function(){
-    
-  })
-  
-  $('.email').on('click', function(){
-    window.location.href = "mailto:eddchao@gmail.com";
-    
-  })
-  
-  
-  // LOGO -  ICON SELECTION
-  
-  if (window_width <= 479){
-    if(current_title=='edchao - Stream'){
-      $('.logo').css({'background-position':'0px 0px'});
-    }else if(current_title=='edchao - Archive'){
-      $('.logo').css({'background-position':'0px -39px'}); 
-    }else if(current_title=='edchao - About'){
-      $('.logo').css({'background-position':'0px -78px'}); 
-    }else {
-      $('.logo').css({'background-position':'0px 0px'});
-    }
-  }else {
-    if(current_title=='edchao - Stream'){
-      $('.logo').css({'background-position':'0px 0px'});
-    }else if(current_title=='edchao - Archive'){
-      $('.logo').css({'background-position':'0px -50px'}); 
-    }else if(current_title=='edchao - About'){
-      $('.logo').css({'background-position':'0px -102px'}); 
-    }else {
-      $('.logo').css({'background-position':'0px 0px'});
-    }
-  }
-  
-  $(window).on('resize', function(){
-    window_width = $(window).width();
-    if (window_width <= 479){
-      if(current_title=='edchao - Stream'){
-        $('.logo').css({'background-position':'0px 0px'});
-      }else if(current_title=='edchao - Archive'){
-        $('.logo').css({'background-position':'0px -39px'}); 
-      }else if(current_title=='edchao - About'){
-        $('.logo').css({'background-position':'0px -78px'}); 
-      }else {
-        $('.logo').css({'background-position':'0px 0px'});
-      }
-    }else{
-      if(current_title=='edchao - Stream'){
-        $('.logo').css({'background-position':'0px 0px'});
-      }else if(current_title=='edchao - Archive'){
-        $('.logo').css({'background-position':'0px -50px'}); 
-      }else if(current_title=='edchao - About'){
-        $('.logo').css({'background-position':'0px -102px'}); 
-      }else {
-        $('.logo').css({'background-position':'0px 0px'});
-      }
-    }
-  });
-
-  
-
-  
-  // LOGO - HOVER BEHAVIOR
-
-	$('.logo').on('mouseover', function(){
-    $('#filters').append($foo);
-		$('#filters').css({'padding-top':'8px', 'opacity':'1'});
-	});
-
-	$('.nav').on('mouseleave', function(){
-		$('#filters').css({'padding-top':'0px', 'opacity':'0'});
-	});
-
-  $('#filters').on('transitionend', function(){
-    if($('#filters').css('padding-top') == '0px'){
-      $foo.remove();
-    };
-  });
-  
-  
-  // CLICK - BEHAVIOR
-
-	$('.logo').on('click', function(){
-    if($('#filters').length){
-      console.log('got length');
-        //$foo.remove();
-    }else{
-      console.log('aint got length');
-      $('#filters').append($foo);
-  		$('#filters').css({'padding-top':'8px', 'opacity':'1'});
-    }
-	});
+menuSize();
 
 
-	$('body').on('click', function(){
-		$('#filters').css({'padding-top':'0px', 'opacity':'0'});
-	});
 
 
-	$('body').on('mouseover','.filter.stream', function(){
-		$(this).children('.popover').css({'visibility':'visible'});
-	});
-  $('body').on('mouseleave', '.filter.stream', function(){
-    $(this).children('.popover').css({'visibility':'hidden'});
-  });
+$(window).on('resize', function(){
+  menuSize();
+});
+
+$(window).on('scroll', function(){
+  menuAnimate();
+});
 
 
-  // POPOVER - BEHAVIOR
+$('.contact').on('click', function(){
+	var oink = 'eddchao';
+	window.location = "mailto:"+oink+"@gmail.com";
+});
 
-	$('body').on('mouseover','.filter.archive', function(){
-		$(this).children('.popover').css({'visibility':'visible'});
-	});
-  $('body').on('mouseleave', '.filter.archive', function(){
-    $(this).children('.popover').css({'visibility':'hidden'});
-  });
 
-	
-	
-	$('body').on('mouseover','.filter.about', function(){
-		$(this).children('.popover').css({'visibility':'visible'});
-	});
-  $('body').on('mouseleave', '.filter.about', function(){
-    $(this).children('.popover').css({'visibility':'hidden'});
-  });
-  
-  
-	$('.network.dribbble').hover(function(){
-		$(this).children('.popover').css({'visibility':'visible'});
-	},function(){
-		$(this).children('.popover').css({'visibility':'hidden'});
-	});
-	
+$('.compact').on('click',function(){
+	var $containerMarginPx = $('.container').css('margin-left');
+	var containerMargin = parseInt($containerMarginPx, 10);
 
-  
-  
+	if(containerMargin < 5){
+		$('.container').css({'margin-left' : '200px'});
+	}else{
+		$('.container').css({'margin-left' : '0px'});
+	}
+});	
+
+$('.container').on('click',function(){
+	var $containerMarginPx = $('.container').css('margin-left');
+	var containerMargin = parseInt($containerMarginPx, 10);
+	if(containerMargin > 0){
+		$('.container').css({'margin-left' : '0px'});
+	}
+});	
+
+function menuSize(){
+	$viewWidth = $(document).width();
+	if ($viewWidth < 400){
+		$('nav').css({'-webkit-justify-content' : 'flex-start'});
+		$('nav').css({'justify-content' : 'flex-start'});
+		$('.expanded').css({'display':'none'});
+		$('.compact').css({'display':'block'});
+
+
+	}else {
+		$('nav').css({'-webkit-justify-content' : 'center'});
+		$('nav').css({'justify-content' : 'center'});
+		$('.expanded').css({'display':'block'});
+		$('.compact').css({'display':'none'});
+		$('.container').css({'margin-left' : '0px'});
+	}
+}
+
+
+
+function menuAnimate(){
+
+$yPos = $(document).scrollTop();
+
+	if($yPos > 5){
+		$('nav').css({'background-color' : 'rgba(255,255,255,0.9)'});
+		$('nav li').css({'border-color':'rgba(0,0,0,0.0'});
+	}else{
+		$('nav').css({'background-color' : 'transparent'});
+		$('nav li').css({'border-color':'rgba(0,0,0,0.3'});
+	}
+}
+
+
+
+
 });

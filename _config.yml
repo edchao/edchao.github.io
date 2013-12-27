@@ -1,5 +1,5 @@
 name: Ed Chao
-description: Writings by Ed Chao
+description: Home of Ed Chao
 url: http://www.thatedchao.com
 pygments: true
-
+excerpt_separator: <!--more--> 

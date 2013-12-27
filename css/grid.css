@@ -1,11 +1,3 @@
-/* 
-GRID V1.0
-Copyright 2013, Ed Chao
-A css fluid grid for furious belly dancers.
-Note: Use grid only for macro positioning. Do not add additional classes to a div with a grid class.
-*/
-
-
 /* Horizontal Grid
 ======================================================== */
 
@@ -30,101 +22,55 @@ Note: Use grid only for macro positioning. Do not add additional classes to a di
 .eighteen.bricks { height: 180px; }
 .nineteen.bricks { height: 190px; }
 .twenty.bricks { height: 200px; }
+.thirty.bricks { height: 300px; }
 .forty.bricks { height: 400px; }
+.fifty.bricks { height: 500px; }
+.sixty.bricks { height: 600px; }
+.seventy.bricks { height: 700px; }
+.eighty.bricks { height: 800px; }
 
-
-/* Base 100%
-======================================================== */
-.container { position:relative; width:70%; max-width:800px; margin: 0 auto; padding: 0;}
-
-.column, .columns { float: left; display: inline; margin-left: 1%; margin-right: 1%; }
-
-/* Nested Column Classes */
-.column.front, .columns.front                 { margin-left: 0; }
-.column.back, .columns.back                   { margin-right: 0; }
-
-.one.column                                   { width: 3%; }
-.two.columns                                  { width: 8%; }
-.three.columns                                { width: 13%; }
-.four.columns                                 { width: 18%; }
-.five.columns                                 { width: 23%; }
-.six.columns                                  { width: 28%; }
-.seven.columns                                { width: 33%; }
-.eight.columns                                { width: 38%; }
-.nine.columns                                 { width: 43%; }
-.ten.columns                                  { width: 48%; }
-.eleven.columns                               { width: 53%; }
-.twelve.columns                               { width: 58%; }
-.thirteen.columns                             { width: 63%; }
-.fourteen.columns                             { width: 68%; }
-.fifteen.columns                              { width: 73%; }
-.sixteen.columns                              { width: 78%; }
-.seventeen.columns                            { width: 83%; }
-.eighteen.columns                             { width: 88%; }
-.nineteen.columns                             { width: 93%; }
-.twenty.columns                               { width: 98%; }
-.half.column                                  { width: 48%; } 
-.one-third.column                             { width: 31.333%; }  
-.two-thirds.column                            { width: 64.666%;}
-
-
-.alpha                                        { margin-left:0px; }
-.omega                                        { margin-right:0px; }
+.slat, .slats {margin:none;}
+.fifteen-slats {width:150px;}
 
 
 /* 300 Mobile
 ======================================================== */
- @media only screen and (min-width: 300px) and (max-width: 479px) {
+ @media only screen and (min-width: 300px) and (max-width: 780px) {
   
-   /* Horizontal Grid
-   ======================================================== */
+  
+.brick, .bricks { margin:none; }
+.one.brick { height: 5px; }
+.two.bricks { height: 10px; }
+.three.bricks { height: 15px; }
+.four.bricks { height: 20px; }
+.five.bricks { height: 25px; }
+.six.bricks { height: 30px; }
+.seven.bricks { height: 35px; }
+.eight.bricks { height: 40px; }
+.nine.bricks { height: 45px; }
+.ten.bricks { height: 50px; }
+.eleven.bricks { height: 55px; }
+.twelve.bricks { height: 60px; }
+.thirteen.bricks { height: 65px; }
+.fourteen.bricks { height: 70px; }
+.fifteen.bricks { height: 75px; }
+.sixteen.bricks { height: 80px; }
+.seventeen.bricks { height: 85px; }
+.eighteen.bricks { height: 90px; }
+.nineteen.bricks { height: 95px; }
+.twenty.bricks { height: 100px; }
+.thirty.bricks { height: 150px; }
+.forty.bricks { height: 200px; }
+.fifty.bricks { height: 250px; }
+.sixty.bricks { height: 300px; }
+.seventy.bricks { height: 350px; }
+.eighty.bricks { height: 400px; }
+  
+  
+.slat, .slats {margin:none;}
+.fifteen-slats {width:75px;}
 
-   .brick, .bricks { margin:none; }
-   .one.brick { height: 5px; }
-   .two.bricks { height: 10px; }
-   .three.bricks { height: 15px; }
-   .four.bricks { height: 20px; }
-   .five.bricks { height: 25px; }
-   .six.bricks { height: 30px; }
-   .seven.bricks { height: 35px; }
-   .eight.bricks { height: 40px; }
-   .nine.bricks { height: 45px; }
-   .ten.bricks { height: 50px; }
-   .eleven.bricks { height: 55px; }
-   .twelve.bricks { height: 60px; }
-   .thirteen.bricks { height: 65px; }
-   .fourteen.bricks { height: 70px; }
-   .fifteen.bricks { height: 75px; }
-   .sixteen.bricks { height: 80px; }
-   .seventeen.bricks { height: 85px; }
-   .eighteen.bricks { height: 90px; }
-   .nineteen.bricks { height: 95px; }
-   .twenty.bricks { height: 100px; }
-   .forty.bricks { height: 200px; }
-  
-  
-  .container { position:relative; width:100%; margin: 0 auto; padding: 0;}
-
-  .one.column,                                   
-  .two.columns,                                  
-  .three.columns,                                
-  .four.columns,                                 
-  .five.columns,                                 
-  .six.columns,                                  
-  .seven.columns,                                
-  .eight.columns,                                
-  .nine.columns,                       
-  .ten.columns,                       
-  .eleven.columns,                              
-  .twelve.columns,                               
-  .thirteen.columns,                             
-  .fourteen.columns,                            
-  .fifteen.columns,                              
-  .sixteen.columns                             { width: 98%; }  
-  
-  
 }
-
 
 
 /* #Clearing (taken from Dave Gamache)
@@ -156,5 +102,3 @@ Note: Use grid only for macro positioning. Do not add additional classes to a di
       width: 0;
       height: 0;
     }
-
-

@@ -1,0 +1,15 @@
+---
+layout: article
+title:  "Houzz Remix"
+date:   2013-10-09 19:20:09
+categories: remix
+
+---
+
+![HouzzMock]({{edchao.github.io}}/assets/img_houzz.jpg)
+
+<!--more--> 
+
+A design remix on Houzz.  I thought the site could use some cleanup ([original site]({{ http://houzz.com }})) Sometimes when you have nothing to do, it's best to find a random site and try your hand at it.
+
+

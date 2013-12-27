@@ -16,26 +16,28 @@ title: Stream
 
 </script>
 
-<div class="container">
-  <div class="twenty columns">
-    <div class="eight bricks">
+  <header class="fifty bricks">
+    <div class="identity">
+      <div class="circle portrait">
+      </div>
+      <div class="title">Ed Chao</div>
+      <div class="subtitle">UX + UI Designer</div>
+      <button class="contact">Say Hello</button>
+
     </div>
-    {% for post in site.posts %}
-      <div class="section">
-        <div class="article-head clearfix">
-          <h4 class="article-title">{{ post.title }}</h4>
-          <span class="article-date">{{ post.date | date_to_string }}</span>
-        </div>
-        <div class="serif">
-          {{ post.content }}
-        </div>
-        <br>
-        <hr>
-        
-      </div> <!--section-->
-    {% endfor %}
-  </div><!-- twenty columns -->
-</div><!-- container -->
+
+  </header>
+
+  <section class="main">
+{% for post in site.posts %}
+<a href="{{ post.url }}">
+  <div class="block ">
+  {{ post.content | split: '<!--more-->' | first }}
+  </div>
+</a>
+{% endfor %}
+</section>
+
 
 
 

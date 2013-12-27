@@ -1,0 +1,14 @@
+---
+layout: article
+title:  "Frame Boilerplate"
+date:   2013-11-07 13:57:09
+categories: ui
+
+---
+
+![Frame]({{edchao.github.io}}/assets/img_frame.jpg)
+<!--more--> 
+
+
+
+Frame is a 16 column responsive grid that scales across pixel width intervals of 300, 768, 960, and 1440. As a little extra, I put in a horizontal grid which I call bricks.  They are simple horizontal spacers that allow you to protoype formatting much quicker. You can download it [here]({{http://thatedchao.com}}/assets/frame.zip).
