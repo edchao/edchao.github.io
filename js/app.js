@@ -24,7 +24,7 @@ $('<img/>').attr('src', 'http://thatedchao.com/img/cover4.jpg').load(function() 
 
 $(".block").hide();
 $(".block").find("img").load(function(){
-   $(this).closest(".block").fadeIn(500);
+   $(this).closest(".block").show(500);
 });
 
 
