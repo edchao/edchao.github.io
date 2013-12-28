@@ -16,6 +16,13 @@ $(window).on('scroll', function(){
 });
 
 
+$('<img/>').attr('src', 'http://thatedchao.com/img/cover4.jpg').load(function() {
+   $(this).remove(); // prevent memory leaks as @benweet suggested
+   $('.header_banner').css('background-image', 'url(http://thatedchao.com/img/cover4.jpg)');
+   $('.header_banner').css('opacity','1');
+});
+
+
 $('.contact').on('click', function(){
 	var oink = 'eddchao';
 	window.location = "mailto:"+oink+"@gmail.com";
