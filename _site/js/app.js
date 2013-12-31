@@ -22,10 +22,11 @@ $('<img/>').attr('src', 'http://thatedchao.com/img/cover4.jpg').load(function() 
    $('.header_banner').css('opacity','1');
 });
 
-$(".block").hide();
-$(".block").find("img").load(function(){
-   $(this).closest(".block").show(500);
-});
+
+// $(".block").hide();
+// $(".block").find("img").load(function(){
+//    $(this).closest(".block").show(500);
+// });
 
 
 $('.contact').on('click', function(){
