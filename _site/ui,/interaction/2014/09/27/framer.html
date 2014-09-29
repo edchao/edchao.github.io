@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>edchao -  Framer Experiments </title>
+<meta name="description" content="Design home of Ed Chao">
+<meta name="author" content="Ed Chao, @edchao">
+<meta name="keywords" content="ed, chao, web standards, CSS, HTML, HTML5, markup, style, web design, web development, ui, palo alto, mountain view, california">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/css/main.css">
+<link rel="icon" type="image/ico" href="http://edchao.github.io/favicon.ico">
+<script src="/js/libs/jquery-1.9.1.js" type="text/javascript" charset="utf-8"></script>
+
+
+
+<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body>
+
+
+<script src="/js/app.min.js" type="text/javascript" charset="utf-8"></script>
+
+<div class="page-wrapper">
+
+  <nav>
+    <a href="#"><span class="nav_contact">CONTACT</span></a>
+    <a href="http://www.thatedchao.com"><div class="nav_logo"></div></a>
+  </nav>
+
+  <main class="content"
+   <!-- Content
+    ================================================== -->
+  
+  <header class="container post">
+    <div class="nav-trigger title"> Framer Experiments </div>
+  </header>
+  <article class="container">
+   <p><img src="/assets/img_framer.jpg" alt="Framer" /></p>
+
+<!--more-->
+
+<p><strong>FramerJS</strong> is a prototyping tool developed by Koen bok.  A few months ago (Today being September 2014) I picked it up after tinkering around with a previously uncontested Quartz Composer.  It was a huge breath of fresh air.  The following is a selection of experiments that hopefully can serve as a resource of projects to help others in their Framer explorations.</p>
+
+<hr />
+
+<h4 id="card-swiping">Card swiping</h4>
+
+<p>The idea behind card swiping is to change contexts for a card-based UI with a swipe.  This is a pretty barebones UI concept but it shows an app that helps you organize your friends and connections based on city.  Swiping up and down changes your city, and therefore changes your friends listed.</p>
+
+<p><img src="/assets/gif_cardfeed.gif" alt="Card Swipe" /></p>
+
+<h4 id="animation-chains-with-states">Animation Chains with States</h4>
+
+<p>On the framerJS website there is an example on chaining animations using the “end” event of a previous animation.  I wondered if you could instead use states and delays to create more complex animations while maintaining a bit more cleanliness in the code.  Note, a bit ;)</p>
+
+<p><img src="/assets/gif_chathead.gif" alt="Chat head" /></p>
+
+<h4 id="tap-hold-with-hammer-js">Tap hold with Hammer JS</h4>
+
+<p>Hammer JS is a library that allows you to utilize numerous other tap events, the most notable for me being tap and hold.  Koen Bok put together a code chunk that lets it work together with Framer.  This is a prototype I put together for my project Beacon that demonstrates what it can do.  </p>
+
+<p><img src="/assets/gif_beacon.gif" alt="Beacon" /></p>
+
+<h4 id="drill-down-tables">Drill Down Tables</h4>
+
+<p>A common request for people building prototypes is to create table views that can push/drill down to other table views.  This prototype creates the table views based on an array of objects, similar to a simple model.</p>
+
+<h4 id="page-control">Page Control</h4>
+
+<p>Another common iOS design paradigm is the page control / cover flow dots.  This is a prototype that tracks what page you are currently viewing.  With that information you can do all sorts of cool stuff, but I’ll leave it to you.</p>
+
+<p><img src="/assets/gif_cardtable.gif" alt="Card Table" /></p>
+
+<h4 id="card-stack">Card Stack</h4>
+
+<p>Here is a demonstration of how to create a 3d stack of cards that you can swipe to navigate.  The concept is essentially just positioning an array of cards along a z-axis based on its index.  Swiping records the index you are currently on and changes the position of all the array items accordingly.</p>
+
+<p><img src="/assets/gif_cardstack.gif" alt="Card Stack" /></p>
+
+
+  </article>
+
+
+
+
+  </main>
+
+  <footer class="container">
+    <div>&#10084;</div>
+    <span> Styled with Sass. Generated in Jekyll, Hosted on Github. </span>
+  </footer>
+
+</div>
+
+</body>
+</html>

@@ -16,29 +16,42 @@ title: Work
 
 </script>
 
-  <header class="fifty bricks">
-    <div class="header_banner fifty bricks">
-    </div>
-    <div class="identity">
-      <div class="circle portrait">
-      </div>
-      <div class="title">Ed Chao</div>
-      <div class="subtitle">UX + UI Designer</div>
-      <button class="contact">Say Hello</button>
+<header class="container hero">
+  <div class="nav-trigger identity"> Ed Chao </div>
+</header>
 
-    </div>
-
-  </header>
-
-  <section class="main">
-{% for post in site.posts %}
-<a href="{{ post.url }}">
-  <div class="block ">
-  {{ post.content | split: '<!--more-->' | first }}
+<div class="container about">
+  <div class="about_social">
+    <ul class="about_capsule">
+      <li><a href="http://twitter.com/edchao">Twitter</a></li>
+      <li><a href="http://dribbble.com/edchao">Dribbble</a></li>
+      <li><a href="http://instagram.com/edchao">Instagram</a></li>
+    </ul>
   </div>
-</a>
-{% endfor %}
-</section>
+  <div class="about_social">
+    <ul class="about_capsule">
+      <li><a class="link_email" href="#">Email</a></li>
+      <li><a href="http://linkedin.com/in/eddchao/">LinkedIn</a></li>      
+    </ul>
+  </div>
+  <div class="about_summary">
+    <div class="about_capsule">
+      <p> <strong>Currently Lead Designer at Guidebook.</strong> Previously Creative Director at Quark Games and Founder at Legitimate Hero Corp. Past work includes games featured by Apple and Kotaku and mobile apps in the top 25.  Lives in Mountain View. </p>
+    </div>
+  </div>
+</div>
+
+<div class="container grid">
+  {% for post in site.posts %}
+  <a href="{{ post.url }}">
+    <div class="grid_card_wrapper">
+      <div class="grid_card ">
+      {{ post.content | split: '<!--more-->' | first }}
+      </div>
+    </div>
+  </a>
+  {% endfor %}
+</div>
 
 
 
