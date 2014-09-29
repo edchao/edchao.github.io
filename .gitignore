@@ -6,6 +6,11 @@
 *.exe
 *.o
 *.so
+
+# Caches #
+############
+**/.sass-cache
+**/.sass-cache/*
  
 # Packages #
 ############
