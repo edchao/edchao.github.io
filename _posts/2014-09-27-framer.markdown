@@ -20,13 +20,30 @@ categories: ui, interaction
 
 The idea behind card swiping is to change contexts for a card-based UI with a swipe.  This is a pretty barebones UI concept but it shows an app that helps you organize your friends and connections based on city.  Swiping up and down changes your city, and therefore changes your friends listed.
 
+[Download Source](https://dl.dropboxusercontent.com/u/1916165/edchao_cardfeed.zip)
+
 ---
 
 #### Animation Chains with States
 
 ![Chat head]({{edchao.github.io}}/assets/gif_chathead.gif)
 
-On the framerJS website there is an example on chaining animations using the "end" event of a previous animation.  I wondered if you could instead use states and delays to create more complex animations while maintaining a bit more cleanliness in the code.  Note, a bit ;)
+On the framerJS website there is an example on chaining animations using the "end" event of a previous animation.  I wondered if you could instead use states and delays to create more complex animations while maintaining a bit more cleanliness in the code.  I deleted the project awhile ago, so here instead is a code snippet to show how it works.
+
+	layer.states.add
+	  a: 
+	    width: 10
+	    height: 10
+	  b:
+	    width: 20
+	    height: 20
+	layer.states.animationOptions = curve:"spring(800,80,0)"
+
+	layer.on Events.Click, ->
+	  layer.states.switch "a"
+	  Utils.delay 0.5s, ->
+	    layer.states.switch "b"
+
 
 ---
 
