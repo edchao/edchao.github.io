@@ -1,0 +1,75 @@
+---
+layout: article
+title:  "Framer Experiments"
+date:   2014-09-27 13:57:09
+categories: ui, interaction
+
+---
+
+![Framer]({{edchao.github.io}}/assets/img_framer.jpg)
+
+<!--more-->
+
+**FramerJS** is a prototyping tool developed by Koen bok.  A few months ago (Today being September 2014) I picked it up after tinkering around with a previously uncontested Quartz Composer.  It was a huge breath of fresh air.  The following is a selection of experiments that hopefully can serve as a resource of projects to help others in their Framer explorations.
+
+---
+
+#### Card swiping
+
+![Card Swipe]({{edchao.github.io}}/assets/gif_cardfeed.gif)
+
+The idea behind card swiping is to change contexts for a card-based UI with a swipe.  This is a pretty barebones UI concept but it shows an app that helps you organize your friends and connections based on city.  Swiping up and down changes your city, and therefore changes your friends listed.
+
+---
+
+#### Animation Chains with States
+
+![Chat head]({{edchao.github.io}}/assets/gif_chathead.gif)
+
+On the framerJS website there is an example on chaining animations using the "end" event of a previous animation.  I wondered if you could instead use states and delays to create more complex animations while maintaining a bit more cleanliness in the code.  Note, a bit ;)
+
+---
+
+#### Tap hold with Hammer JS
+
+![Beacon]({{edchao.github.io}}/assets/gif_beacon.gif)
+
+Hammer JS is a library that allows you to utilize numerous other tap events, the most notable for me being tap and hold.  Koen Bok put together a code chunk that lets it work together with Framer.  This is a prototype I put together for my project Beacon that demonstrates what it can do. 
+
+[Download Source](https://dl.dropboxusercontent.com/u/1916165/beacon_proto.zip)  
+
+---
+
+#### Drill Down Tables
+
+![Multiview]({{edchao.github.io}}/assets/gif_multiview.gif)
+
+A common request for people building prototypes is to create table views that can push/drill down to other table views.  This prototype creates the table views based on an array of objects, similar to a simple model.
+
+[Download Source](https://dl.dropboxusercontent.com/u/1916165/edchao_multiview.framer.zip)
+
+---
+
+#### Page Control
+
+![Page Control]({{edchao.github.io}}/assets/gif_cardtable.gif)
+
+Another common iOS design paradigm is the page control / cover flow dots.  This is a prototype that tracks what page you are currently viewing.  With that information you can do all sorts of cool stuff, but I'll leave it to you. 
+
+[Download Source](https://dl.dropboxusercontent.com/u/1916165/edchao_pagecontrol.zip)
+
+
+---
+
+#### Card Stack
+
+![Card Stack]({{edchao.github.io}}/assets/gif_cardstack.gif)
+
+Here is a demonstration of how to create a 3d stack of cards that you can swipe to navigate.  The concept is essentially just positioning an array of cards along a z-axis based on its index.  Swiping records the index you are currently on and changes the position of all the array items accordingly. 
+
+[Download Source](https://dl.dropboxusercontent.com/u/1916165/edchao_cardstack.framer.zip)
+
+
+
+
+

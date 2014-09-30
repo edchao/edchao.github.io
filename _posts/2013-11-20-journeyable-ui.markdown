@@ -10,7 +10,9 @@ categories: ui
 
 <!--more-->
 
-**Journeyable** is a special little app for planning and sharing your trips. It is currently in development and on its way to you. Seen here is the mobile version of the site. The early web version, a snapshot of which can be seen below, was my first experimentation with emberjs. <a href="http://journeyable.com"> More to come</a> :)
+**Journeyable** is a special little app for planning and sharing your trips. It was my first foray into frontend MVC with emberJS.  This project was placed on hiatus after realizing that the repeatability of itinerary creation is actually quite low. That said, it was a fun exercise in thinking through a problem and getting my feet wet building an app.
+
+I may return to this project someday :)
 
 ![JourneyableUI]({{edchao.github.io}}/assets/img_journ_uimap.jpg)
 
