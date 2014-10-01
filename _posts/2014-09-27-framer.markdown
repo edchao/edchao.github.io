@@ -90,7 +90,7 @@ Here is a demonstration of how to create a 3d stack of cards that you can swipe 
 
 #### Radial Progress
 
-![Card Stack]({{edchao.github.io}}/assets/gif_cardstack.gif)
+![Card Stack]({{edchao.github.io}}/assets/gif_radial.gif)
 
 It took me awhile to figure this one out, but here's a proto demonstrating how to create a radial progress bar.  The key is that you're actually faking it by masking two rectangles being rotated around in succession within a larger circular mask.  
 
