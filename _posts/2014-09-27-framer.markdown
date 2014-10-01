@@ -10,7 +10,7 @@ categories: ui, interaction
 
 <!--more-->
 
-**FramerJS** is a prototyping tool developed by Koen bok.  A few months ago (Today being September 2014) I picked it up after tinkering around with a previously uncontested Quartz Composer.  It was a huge breath of fresh air.  The following is a selection of experiments that hopefully can serve as a resource of projects to help others in their Framer explorations.
+[**FramerJS**](http://framerjs.com) is a prototyping tool developed by Koen bok and the team at Podium.  A few months ago (Today being September 2014) I picked it up after tinkering around with a previously uncontested Quartz Composer.  It was a huge breath of fresh air.  The following is a selection of experiments that hopefully can serve as a resource of projects to help others in their Framer explorations.
 
 ---
 
