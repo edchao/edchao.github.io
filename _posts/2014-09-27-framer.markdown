@@ -73,7 +73,7 @@ A common request for people building prototypes is to create table views that ca
 
 Another common iOS design paradigm is the page control / cover flow dots.  This is a prototype that tracks what page you are currently viewing.  With that information you can do all sorts of cool stuff, but I'll leave it to you. 
 
-[Download Source](https://dl.dropboxusercontent.com/u/1916165/edchao_pagecontrol.zip)
+[Download Source](https://dl.dropboxusercontent.com/u/1916165/edchao_pagecontrol.framer.zip)
 
 
 ---
