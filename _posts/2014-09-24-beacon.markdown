@@ -2,7 +2,10 @@
 layout: article
 title:  "Beacon"
 date:   2014-09-24 13:57:09
-categories: ui
+tags: 
+- ui 
+categories:
+- published
 
 ---
 

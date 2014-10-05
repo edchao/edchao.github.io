@@ -2,7 +2,11 @@
 layout: article
 title:  "Framer Experiments"
 date:   2014-09-27 13:57:09
-categories: ui interaction
+tags: 
+- ui 
+- interaction 
+categories:
+- published
 
 ---
 

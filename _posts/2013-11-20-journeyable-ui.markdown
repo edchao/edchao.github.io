@@ -2,7 +2,10 @@
 layout: article
 title:  "Journeyable"
 date:   2013-11-07 13:57:09
-categories: ui
+tags: 
+- ui 
+categories:
+- published
 
 ---
 

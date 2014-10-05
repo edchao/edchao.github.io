@@ -43,13 +43,15 @@ title: Work
 
 <div class="container grid">
   {% for post in site.posts %}
-  <a href="{{ post.url }}">
-    <div class="grid_card_wrapper">
-      <div class="grid_card ">
-      {{ post.content | split: '<!--more-->' | first }}
-      </div>
-    </div>
-  </a>
+    {% if post.categories contains 'published' %}
+      <a href="{{ post.url }}">
+        <div class="grid_card_wrapper">
+          <div class="grid_card ">
+          {{ post.content | split: '<!--more-->' | first }}
+          </div>
+        </div>
+      </a>
+    {% endif %}
   {% endfor %}
 </div>
 
