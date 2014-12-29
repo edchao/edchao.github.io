@@ -1,0 +1,37 @@
+---
+layout: article
+title:  "Guidebook Corpsite Redesign"
+date:   2014-12-28 13:57:09
+tags: 
+- ui  
+categories:
+
+---
+
+![Framer]({{edchao.github.io}}/assets/img_guidebook_site.jpg)
+
+<!--more-->
+
+During my last couple of months at Guidebook, I was tasked with redesigning the corpsite, to bring it in line with the refreshed visual system I had been applying to its products.  
+
+
+#### The Problem
+
+Previously the Guidebook site had been a complex network of pages with deep and sometimes confusing connections.  However, there were only a few pages that were heavily visited.  So the approach seemed clear. Focus on the pages that matter and clear away the rest.  And from that essential core of pages, consider what necessary additions had to be made.  
+
+#### Iterations
+
+The first iteration of the site was to prove the point that you don't need to say much to say something clearly.  The initial design focused on letting the imagery deliver the message as opposed to the text.
+
+#### Toggling Verticals
+
+
+One of the awesome things about Guidebook is that it can be used to create guides for anything. Whether it's a wedding or a museum, Guidebook's expansive set of features can tailor a guide to your needs.  In order to show the breadth of Guidebook's use cases, I created a toggle bar that allowed users to switch quickly from one vertical to another.  This element would become central to the final design.
+
+#### Staying DRY
+
+As I had mentioned previously, before the start of this project I had already put together a system of styles for other Guidebook products.  Together with Alan Hogan and Pete Lada, our team created a SMACSS-like sass module library that could be used in the implementation of the corpsite as well.
+
+#### Passing on the baton
+
+Unfortunately, my last day did not mark the completion of this project. We had completed the majority of the site but were still short a few pages due to some last-minute marketing needs.  Thankfully, the project was picked up by Pete Lada, and he has done a stellar job in shoring up the gaps and getting it deployed.  You can check it out at guidebook.com
