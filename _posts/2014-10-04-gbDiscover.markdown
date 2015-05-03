@@ -6,9 +6,10 @@ tags:
 - ui 
 - interaction 
 categories:
+- published
 ---
 
-![Framer]({{edchao.github.io}}/assets/img_framer.jpg)
+![Framer]({{edchao.github.io}}/assets/img_gbdiscover.jpg)
 
 <!--more-->
 
@@ -20,14 +21,23 @@ Up until the release of this redesign.  Users would be given direction by the ev
 
 According to our metrics, we observed that the most popular way for people to find and download the guide they wanted was through search.  If they knew the name of their event, they would just type that in. Despite the fact that we knew this,  we thought we could shift user's mentality to include exploration with an on boarding process.  However after only one user test, it was clear that the on boarding process was in and of itself and obstacle to finding and downloading a guide.  So we got rid of it. 
 
+![Framer]({{edchao.github.io}}/assets/img_discover_onboard.jpg)
+
+![Framer]({{edchao.github.io}}/assets/img_discover_videos.jpg)
+
 
 #### Another approach, getting rid of Downloads
 
 Initially our app distinguished between downloaded and non-downloaded guides.  This was presented as a "My Guides" section, and a "Guidebook Library" section. However this in and of itself was not a helpful distinction.  In fact it created unnecessary overhead in explaining to users how the guidebook app worked. 
 
+![Framer]({{edchao.github.io}}/assets/img_discover_original.jpg)
+
 We had originally put this schema in place because technically, guides were downloaded before they could be viewed.  But in doing so, we separated the "Guidebook library of guides" from "Your Guides" and out of those two screens, we could only emphasize one.  By emphasizing Your Guides we obscured the Guidebook Library, and vice versa.
 
 By getting rid of the "downloaded guide" distinction, we were able to combine the two concepts into one screen.  Users didn't care about the distinction so why force it on them?  Now, instead of two places where guides could reside, we had just one.  
+
+![Framer]({{edchao.github.io}}/assets/img_discover_final.jpg)
+
 
 #### A faster and simpler experience
 
