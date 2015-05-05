@@ -193,8 +193,8 @@ nav {
     position: absolute;
     font-family: 'Helvetica Neue' sans-serif;
     letter-spacing: 1px;
-    width: 27px;
-    height: 22px;
+    width: 31px;
+    height: 23px;
     right: 0px;
     font-size: 13px;
     font-weight: 300;
@@ -224,6 +224,24 @@ nav a {
 
 nav a:hover {
   color: black; }
+
+.nav_back {
+  display: block;
+  position: fixed;
+  z-index: 9999999;
+  font-family: 'Helvetica Neue' sans-serif;
+  letter-spacing: 1px;
+  width: 24px;
+  height: 24px;
+  left: 0px;
+  font-size: 13px;
+  font-weight: 300;
+  margin: 20px;
+  color: #ddd;
+  text-indent: -999999px;
+  background-image: url("/assets/icon_back.png");
+  background-repeat: no-repeat;
+  background-size: 100%; }
 
 .opaque {
   background-color: #f9f9f9;
