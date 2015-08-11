@@ -1,0 +1,36 @@
+---
+layout: article
+title:  "Stack"
+date:   2015-08-10 13:57:09
+tags:
+- ui
+- interaction
+categories:
+- published
+---
+
+![Stacks]({{edchao.github.io}}/assets/img_stack.jpg)
+
+<!--more-->
+
+
+
+#### <strong>Stack</strong> is an iOS app for capturing thoughts.
+
+
+__With you wherever you go.__
+It almost doesn't need to be said. You have thoughts wherever you are, that's why Stack is a mobile app, to make sure that when those golden thoughts come, they have somewhere to go... and stay.
+
+__As speedy as thought.__
+Your thoughts don't wait around.  They come almost as fast as they go.  That's why Stack is formatted as a Note Stream.  Unlike most apps where you have to create a new document for each new thought, Stack just appends your note to a single stream. It's fast.
+
+__Crafted for fewer words.__
+When you're at your desktop, it's common to write long documents.  But on your phone, your compositions are short, encapsulated, bundles of words.  And since your notes only need to be meaningful to you, you can distill them even further ("Cento by DBX, gibraltar == cento," probably means nothing to you, but a lot to me!) Stack takes advantage of this instinctual conciseness by providing a leaner input experience that allows you to stay on one screen.
+
+__A flexible way to organize.__
+When it comes to writing things down, anything can be the subject.  But if all your thoughts are just appended to a single stack, how do you stay organized?  Short Stacks allow you to group individual notes from your Stack into a custom subset. Like a playlist for songs, you can assemble notes in any way that's meaningful to you. What's especially nice is that a note can belong to as many stacks as you like. Some Short Stacks I've created are "New Orleans Itinerary," "Places to remember," "Product Ideas," "Work Tasks," you get the picture.
+
+
+![ShortStacks]({{edchao.github.io}}/assets/img_shortstacks.png)
+
+Stack is currently being beta-tested. If you're interested in participating, <a href="https://twitter.com/edchao"> send me a tweet</a>.
