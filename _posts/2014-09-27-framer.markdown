@@ -2,15 +2,17 @@
 layout: article
 title:  "Framer Experiments"
 date:   2014-09-27 13:57:09
-tags: 
-- ui 
-- interaction 
+tags:
+- ui
+- interaction
 categories:
 - published
 
 ---
 
-![Framer]({{edchao.github.io}}/assets/img_framer.jpg)
+<figure>
+<img src="{{edchao.github.io}}/assets/img_framer.jpg" />
+</figure>
 
 <!--more-->
 
@@ -20,7 +22,9 @@ categories:
 
 #### Card swiping
 
-![Card Swipe]({{edchao.github.io}}/assets/gif_cardfeed.gif)
+<figure>
+<img src="{{edchao.github.io}}/assets/gif_cardfeed.gif" />
+</figure>
 
 The idea behind card swiping is to change contexts for a card-based UI with a swipe.  This is a pretty barebones UI concept but it shows an app that helps you organize your friends and connections based on city.  Swiping up and down changes your city, and therefore changes your friends listed.
 
@@ -30,12 +34,14 @@ The idea behind card swiping is to change contexts for a card-based UI with a sw
 
 #### Animation Chains with States
 
-![Chat head]({{edchao.github.io}}/assets/gif_chathead.gif)
+<figure>
+<img src="{{edchao.github.io}}/assets/gif_chathead.gif" />
+</figure>
 
 On the framerJS website there is an example on chaining animations using the "end" event of a previous animation.  I wondered if you could instead use states and delays to create more complex animations while maintaining a bit more cleanliness in the code.  I deleted the project awhile ago, so here instead is a code snippet to show how it works.
 
 	layer.states.add
-	  a: 
+	  a:
 	    width: 10
 	    height: 10
 	  b:
@@ -53,9 +59,11 @@ On the framerJS website there is an example on chaining animations using the "en
 
 #### Tap hold with Hammer JS
 
-![Beacon]({{edchao.github.io}}/assets/gif_beacon.gif)
+<figure>
+<img src="{{edchao.github.io}}/assets/gif_beacon.gif" />
+</figure>
 
-Hammer JS is a library that allows you to utilize numerous other tap events, the most notable for me being tap and hold.  Koen Bok put together a code chunk that lets it work together with Framer.  This is a prototype I put together for my project Beacon that demonstrates what it can do. 
+Hammer JS is a library that allows you to utilize numerous other tap events, the most notable for me being tap and hold.  Koen Bok put together a code chunk that lets it work together with Framer.  This is a prototype I put together for my project Beacon that demonstrates what it can do.
 
 [Download Source](https://dl.dropboxusercontent.com/u/1916165/beacon_proto.zip)  
 
@@ -63,7 +71,9 @@ Hammer JS is a library that allows you to utilize numerous other tap events, the
 
 #### Drill Down Tables
 
-![Multiview]({{edchao.github.io}}/assets/gif_multiview.gif)
+<figure>
+<img src="{{edchao.github.io}}/assets/gif_multiview.gif" />
+</figure>
 
 A common request for people building prototypes is to create table views that can push/drill down to other table views.  This prototype creates the table views based on an array of objects, similar to a simple model.
 
@@ -73,9 +83,11 @@ A common request for people building prototypes is to create table views that ca
 
 #### Page Control
 
-![Page Control]({{edchao.github.io}}/assets/gif_cardtable.gif)
+<figure>
+<img src="{{edchao.github.io}}/assets/gif_cardtable.gif" />
+</figure>
 
-Another common iOS design paradigm is the page control / cover flow dots.  This is a prototype that tracks what page you are currently viewing.  With that information you can do all sorts of cool stuff, but I'll leave it to you. 
+Another common iOS design paradigm is the page control / cover flow dots.  This is a prototype that tracks what page you are currently viewing.  With that information you can do all sorts of cool stuff, but I'll leave it to you.
 
 [Download Source](https://dl.dropboxusercontent.com/u/1916165/edchao_pagecontrol.framer.zip)
 
@@ -84,9 +96,11 @@ Another common iOS design paradigm is the page control / cover flow dots.  This 
 
 #### Card Stack
 
-![Card Stack]({{edchao.github.io}}/assets/gif_cardstack.gif)
+<figure>
+<img src="{{edchao.github.io}}/assets/gif_cardstack.gif" />
+</figure>
 
-Here is a demonstration of how to create a 3d stack of cards that you can swipe to navigate.  The concept is essentially just positioning an array of cards along a z-axis based on its index.  Swiping records the index you are currently on and changes the position of all the array items accordingly. 
+Here is a demonstration of how to create a 3d stack of cards that you can swipe to navigate.  The concept is essentially just positioning an array of cards along a z-axis based on its index.  Swiping records the index you are currently on and changes the position of all the array items accordingly.
 
 [Download Source](https://dl.dropboxusercontent.com/u/1916165/edchao_cardstack.framer.zip)
 
@@ -94,7 +108,9 @@ Here is a demonstration of how to create a 3d stack of cards that you can swipe 
 
 #### Radial Progress
 
-![Radial progress]({{edchao.github.io}}/assets/gif_radial.gif)
+<figure>
+<img src="{{edchao.github.io}}/assets/gif_radial.gif" />
+</figure>
 
 It took me awhile to figure this one out, but here's a proto demonstrating how to create a radial progress bar.  The key is that you're actually faking it by masking two rectangles being rotated around in succession within a larger circular mask.  
 
@@ -103,12 +119,10 @@ It took me awhile to figure this one out, but here's a proto demonstrating how t
 
 #### iOS Document Previews
 
-![Doc Preview]({{edchao.github.io}}/assets/gif_docpreview.gif)
+<figure>
+<img src="{{edchao.github.io}}/assets/gif_docpreview.gif" />
+</figure>
 
 One thing I love about mac finder, is the column view. This is because I can quickly see a preview of the document as I tab my way around.  I thought it'd be nice to have a similar experience in iOS.  here's my first attempt using a hideable preview pane that can be pulled down or triggered on a cell's preview button.
 
 [Download Source](https://dl.dropboxusercontent.com/u/1916165/edchao_docPreview.framer.zip)
-
-
-
-

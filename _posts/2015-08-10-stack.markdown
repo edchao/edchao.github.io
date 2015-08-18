@@ -9,7 +9,10 @@ categories:
 - published
 ---
 
-![Stacks]({{edchao.github.io}}/assets/img_stack.jpg)
+<figure>
+<img src="{{edchao.github.io}}/assets/img_stack.jpg" />
+</figure>
+
 
 <!--more-->
 
@@ -31,6 +34,8 @@ __A flexible way to organize.__
 When it comes to writing things down, anything can be the subject.  But if all your thoughts are just appended to a single stack, how do you stay organized?  Short Stacks allow you to group individual notes from your Stack into a custom subset. Like a playlist for songs, you can assemble notes in any way that's meaningful to you. What's especially nice is that a note can belong to as many stacks as you like. Some Short Stacks I've created are "New Orleans Itinerary," "Places to remember," "Product Ideas," "Work Tasks," you get the picture.
 
 
-![ShortStacks]({{edchao.github.io}}/assets/img_shortstacks.png)
+<figure>
+<img src="{{edchao.github.io}}/assets/img_shortstacks.png" />
+</figure>
 
 Stack is currently being beta-tested. If you're interested in participating, <a href="https://twitter.com/edchao"> send me a tweet</a>.

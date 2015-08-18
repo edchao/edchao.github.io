@@ -2,14 +2,16 @@
 layout: article
 title:  "Explore, a Guidebook Experiment "
 date:   2014-10-04 13:57:09
-tags: 
-- ui 
-- interaction 
+tags:
+- ui
+- interaction
 categories:
 
 ---
 
-![Framer]({{edchao.github.io}}/assets/img_gbExplore.jpg)
+<figure>
+<img src="{{edchao.github.io}}/assets/img_gbExplore.jpg" />
+</figure>
 
 <!--more-->
 
@@ -33,7 +35,7 @@ But even a city is a massive concept.  So we broke down a city into the categori
 
 #### Lists, Grids and Cards
 
-How to manifest places to users can go many different ways.  The simplest idea is just to list them.  But lists are inherently non-engaging, and extremely limited in what they can convey.  What is engaging is images.  So we tried a grid of images.  But the problem with grids is that it's overwhelming.  You run into the paradox of choice.  So the next option was stacks of cards.  You can only view one card at a time.  That's manageable. And to give it another dimension, we created multiple stacks. Each stack represents a category for the place where you are at.   Swiping up and down switches your stack category.   
+How to manifest places to users can go many different ways.  The simplest idea is just to list them.  But lists are inherently non-engaging, and extremely limited in what they can convey.  What is engaging is images.  So we tried a grid of images.  But the problem with grids is that it's overwhelming.  You run into the paradox of choice.  So the next option was stacks of cards.  You can only view one card at a time.  That's manageable. And to give it another dimension, we created multiple stacks. Each stack represents a category for the place where you are at.   Swiping up and down switches your stack category.
 
 #### Information Cards
 
@@ -42,11 +44,3 @@ The wonderful thing about cards, is that it modularizes information.  It makes t
 #### Feeling like a single screen app
 
 In order to maintain a feeling of simplicity, I felt it was important to make the app essentially a single screen experience.  To do this, drill down interactions were repackaged into expanding cards.  This way you don't feel like you're leaving the main screen, you're just magnifying an element on it.
-
-
-
-
-
-
-
-

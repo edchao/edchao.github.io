@@ -2,14 +2,17 @@
 layout: article
 title:  "Guidebook Discovery"
 date:   2014-10-04 13:57:09
-tags: 
-- ui 
-- interaction 
+tags:
+- ui
+- interaction
 categories:
 - published
 ---
 
-![Framer]({{edchao.github.io}}/assets/img_gbdiscover.jpg)
+<figure>
+<img src="{{edchao.github.io}}/assets/img_gbdiscover.jpg" />
+</figure>
+
 
 <!--more-->
 
@@ -19,36 +22,35 @@ The Guidebook app provides a library of guides for events, organizations, and pl
 
 Up until the release of this redesign.  Users would be given direction by the event hosts to download the  guide for the event they were attending.  This meant that our user experience revolved around getting users to download the guide for their event as quickly as possible.
 
-According to our metrics, we observed that the most popular way for people to find and download the guide they wanted was through search.  If they knew the name of their event, they would just type that in. Despite the fact that we knew this,  we thought we could shift user's mentality to include exploration with an on boarding process.  However after only one user test, it was clear that the on boarding process was in and of itself and obstacle to finding and downloading a guide.  So we got rid of it. 
+According to our metrics, we observed that the most popular way for people to find and download the guide they wanted was through search.  If they knew the name of their event, they would just type that in. Despite the fact that we knew this,  we thought we could shift user's mentality to include exploration with an on boarding process.  However after only one user test, it was clear that the on boarding process was in and of itself and obstacle to finding and downloading a guide.  So we got rid of it.
 
-![Framer]({{edchao.github.io}}/assets/img_discover_onboard.jpg)
+<figure>
+<img src="{{edchao.github.io}}/assets/img_discover_onboard.jpg" />
+</figure>
 
-![Framer]({{edchao.github.io}}/assets/img_discover_videos.jpg)
 
+<figure>
+<img src="{{edchao.github.io}}/assets/img_discover_videos.jpg" />
+</figure>
 
 #### Another approach, getting rid of Downloads
 
-Initially our app distinguished between downloaded and non-downloaded guides.  This was presented as a "My Guides" section, and a "Guidebook Library" section. However this in and of itself was not a helpful distinction.  In fact it created unnecessary overhead in explaining to users how the guidebook app worked. 
+Initially our app distinguished between downloaded and non-downloaded guides.  This was presented as a "My Guides" section, and a "Guidebook Library" section. However this in and of itself was not a helpful distinction.  In fact it created unnecessary overhead in explaining to users how the guidebook app worked.
 
-![Framer]({{edchao.github.io}}/assets/img_discover_original.jpg)
+<figure>
+<img src="{{edchao.github.io}}/assets/img_discover_original.jpg" />
+</figure>
 
 We had originally put this schema in place because technically, guides were downloaded before they could be viewed.  But in doing so, we separated the "Guidebook library of guides" from "Your Guides" and out of those two screens, we could only emphasize one.  By emphasizing Your Guides we obscured the Guidebook Library, and vice versa.
 
 By getting rid of the "downloaded guide" distinction, we were able to combine the two concepts into one screen.  Users didn't care about the distinction so why force it on them?  Now, instead of two places where guides could reside, we had just one.  
 
-![Framer]({{edchao.github.io}}/assets/img_discover_final.jpg)
-
+<figure>
+<img src="{{edchao.github.io}}/assets/img_discover_final.jpg" />
+</figure>
 
 #### A faster and simpler experience
 
-Over the many weeks we worked on this project, we went from a multiple screen on-boarding process with a two screen app, to a single screen experience.  At the end of the day we were left with an app that optimized finding and viewing guides while simultaneously encouraging exploration of other guides. 
+Over the many weeks we worked on this project, we went from a multiple screen on-boarding process with a two screen app, to a single screen experience.  At the end of the day we were left with an app that optimized finding and viewing guides while simultaneously encouraging exploration of other guides.
 
 <a href="https://itunes.apple.com/us/app/guidebook/id428713847?mt=8">Download from the App Store</a>
-
-
-
-
-
-
-
-

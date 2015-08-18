@@ -2,14 +2,16 @@
 layout: article
 title:  "Beacon"
 date:   2014-09-24 13:57:09
-tags: 
-- ui 
+tags:
+- ui
 categories:
 - published
 
 ---
 
-![JourneyableUI]({{edchao.github.io}}/assets/img_beacon_preview.jpg)
+<figure>
+<img src="{{edchao.github.io}}/assets/img_beacon_preview.jpg" />
+</figure>
 
 <!--more-->
 
@@ -26,28 +28,35 @@ In early 2014, my friend Glen had a wonderful and simple thought.  We had friend
 
 Initial designs for Beacon made it clear that we could make this a super simple experience.  There were very little elements that required displaying, and the main action was a switch.
 
-![beacon_1]({{edchao.github.io}}/assets/img_beacon_1.jpg)
+<figure>
+<img src="{{edchao.github.io}}/assets/img_beacon_1.jpg" />
+</figure>
 
 Over time, even what was first believed to be simple, ended up being made even simpler.  I stripped nearly all the chrome out, and it created a much more focused experience.  
 
-
-![beacon_2]({{edchao.github.io}}/assets/img_beacon_2.jpg)
+<figure>
+<img src="{{edchao.github.io}}/assets/img_beacon_2.jpg" />
+</figure>
 
 Ultimately I settled on a grid based design, for two major reasons. First, it allowed users to see more beacons at once.  The stacked view was simple, but it lacked the same kind of utility as the grid, since it forced users to scroll if they had more than three friends. Second, it emphasized the personal aspect of app by giving more real estate to the portraits of friends.  It's one thing to see a list of friend's names, and another to see their shining faces.
 
-![beacon_3]({{edchao.github.io}}/assets/img_beacon_3.jpg)
-
+<figure>
+<img src="{{edchao.github.io}}/assets/img_beacon_3.jpg" />
+</figure>
 
 #### Prototyping
 
 Some time during the design phase, Koen Bok and his team elite released FramerJS.  It was (and continues to be) an amazing tool.  Suddenly, interactions became much more accessible to create.  Here are some of the interactions that I came up with.
 
-![Beacon]({{edchao.github.io}}/assets/gif_beaconswitch.gif)
+<figure>
+<img src="{{edchao.github.io}}/assets/gif_beaconswitch.gif" />
+</figure>
 
-![Beacon]({{edchao.github.io}}/assets/gif_beacon.gif)
-
+<figure>
+<img src="{{edchao.github.io}}/assets/gif_beacon.gif" />
+</figure>
 
 
 #### Conclusion
 
-Beacon is a project about getting to the essentials.  If there is no need for additional complexity, why introduce it?  Give just enough, and what you have will speak louder than ever.  The final app is a plain grid of faces with a small beacon icon beside it, either on or off. 
+Beacon is a project about getting to the essentials.  If there is no need for additional complexity, why introduce it?  Give just enough, and what you have will speak louder than ever.  The final app is a plain grid of faces with a small beacon icon beside it, either on or off.

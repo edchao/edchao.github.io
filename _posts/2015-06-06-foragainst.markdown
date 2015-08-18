@@ -9,13 +9,18 @@ categories:
 - published
 ---
 
-![ForAgainst]({{edchao.github.io}}/assets/img_foragainst.jpg)
+<figure>
+<img src="{{edchao.github.io}}/assets/img_foragainst.jpg" />
+</figure>
+
 
 <!--more-->
 
 <strong>ForAgainst</strong> lets you post reasons why you are for or against any issue. Contribute an issue, post a reason, or upvote/downvote reasons other people have posted.  As time goes by, you decide which side is most compelling.
 
-![ForAgainst]({{edchao.github.io}}/assets/img_foragainst_home.jpg)
+<figure>
+<img src="{{edchao.github.io}}/assets/img_foragainst_home.jpg" />
+</figure>
 
 <iframe width="800" height="421" src="https://www.youtube.com/embed/XOjMgZH8_4g" frameborder="0" allowfullscreen></iframe>
 

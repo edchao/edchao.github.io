@@ -2,13 +2,15 @@
 layout: article
 title:  "Guidebook Corpsite Redesign"
 date:   2014-12-28 13:57:09
-tags: 
+tags:
 - ui  
 categories:
 
 ---
 
-![Framer]({{edchao.github.io}}/assets/img_guidebook_site.jpg)
+<figure>
+<img src="{{edchao.github.io}}/assets/img_guidebook_site.jpg" />
+</figure>
 
 <!--more-->
 

@@ -2,18 +2,19 @@
 layout: article
 title:  "Champs : Battlegrounds"
 date:   2013-09-01 19:20:09
-tags: 
-- ui 
+tags:
+- ui
 categories:
 - published
 
 
 ---
 
-![Champs]({{edchao.github.io}}/assets/img_champs_cover.jpg)
+<figure>
+<img src="{{edchao.github.io}}/assets/img_champs_cover.jpg" />
+</figure>
 
-
-<!--more--> 
+<!--more-->
 
 **Champs : Battlegrounds** is a Multiplayer Online Squad Strategy mobile game.  It's available on both tablet and smart phones (iOS + Android). I had lots of fun designing the UI for this game.  It was a great opportunity to show that games don't have to have overly convoluted user interfaces.  Check it out <a href="http://champsgame.com">here.</a>
 
@@ -26,24 +27,40 @@ The rules of the game are as follows.  You command a squad of 6 characters.  Eac
 #### Soul Collection
 
 
-![Champs]({{edchao.github.io}}/assets/img_champs.jpg)
-![Champs]({{edchao.github.io}}/assets/img_champs_killcount.jpg)
+<figure>
+<img src="{{edchao.github.io}}/assets/img_champs.jpg" />
+</figure>
 
+<figure>
+<img src="{{edchao.github.io}}/assets/img_champs_killcount.jpg" />
+</figure>
+
+
+<figure>
+<img src="{{edchao.github.io}}/assets/img_champs_cover.jpg" />
+</figure>
 Early in development we didn't have the visualization of souls being swept up into the kill count after a character was killed. As a result, during user-tests, people were surprised when the game ended, not realizing they had racked up the target number of kills.  Once we introduced the soul collection the problem was resolved since users would relish the kill count ticking up whenever a soul was collected.
 
 #### Ability HUD
 
-![Champs]({{edchao.github.io}}/assets/img_hud_change.jpg)
+<figure>
+<img src="{{edchao.github.io}}/assets/img_hud_change.jpg" />
+</figure>
 
 Originally we wanted a circle hud to access and execute abilities (Above) because it allowed a user to easily identify which character the hud belonged to.  However after numerous user tests, I settled on creating a more intuitive version which exists as a magnified representation of the character's energy bar.  
 
 #### UI Overview
 
-
-![Champs]({{edchao.github.io}}/assets/img_champs_ui.jpg)
+<figure>
+<img src="{{edchao.github.io}}/assets/img_champs_ui.jpg" />
+</figure>
 
 #### Additional Art
 
-![Champs]({{edchao.github.io}}/assets/img_champs_badges.jpg)
+<figure>
+<img src="{{edchao.github.io}}/assets/img_champs_badges.jpg" />
+</figure>
 
-![Champs]({{edchao.github.io}}/assets/img_champs_tourn.jpg)
+<figure>
+<img src="{{edchao.github.io}}/assets/img_champs_tourn.jpg" />
+</figure>
