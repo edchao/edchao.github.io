@@ -68,11 +68,12 @@ h4 {
   line-height: 1.4; }
 
 h5 {
-  font-size: 18px;
-  line-height: 1.5; }
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: bold; }
 
 h6 {
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.6; }
 
 p {
@@ -401,21 +402,28 @@ footer {
 ------------------------------------------*/
 article {
   padding: 0 10px; }
+  article ol {
+    list-style: decimal; }
   @media only screen and (min-width: 301px) and (max-width: 500px) {
-    article h4, article p, article hr {
-      margin: 0 0 30px 0; } }
+    article h1, article h2, article h3, article h4, article h5, article p, article hr, article ul, article ol {
+      margin: 30px 0 30px 0; } }
   @media only screen and (min-width: 501px) and (max-width: 800px) {
-    article h4, article p, article hr {
-      margin: 0 0 30px 0; } }
+    article h1, article h2, article h3, article h4, article h5, article p, article hr, article ul, article ol {
+      margin: 30px 0 30px 0; } }
   @media only screen and (min-width: 801px) and (max-width: 800px) {
-    article h4, article p, article hr {
-      margin: 0 0 30px 0; } }
+    article h1, article h2, article h3, article h4, article h5, article p, article hr, article ul, article ol {
+      margin: 30px 0 30px 0; } }
   @media only screen and (min-width: 801px) and (max-width: 800px) {
-    article h4, article p, article hr {
-      margin: 0 120px 30px 120px; } }
+    article h1, article h2, article h3, article h4, article h5, article p, article hr, article ul, article ol {
+      margin: 30px 120px 30px 120px; } }
   @media only screen and (min-width: 801px) {
-    article h4, article p, article hr {
-      margin: 0 120px 30px 120px; } }
+    article h1, article h2, article h3, article h4, article h5, article p, article hr, article ul, article ol {
+      margin: 30px 120px 30px 120px; } }
+  article hr {
+    margin-top: 60px;
+    margin-bottom: 60px; }
+  article h4, article h5 {
+    margin-top: 60px; }
 
 figure > img {
   position: relative;
