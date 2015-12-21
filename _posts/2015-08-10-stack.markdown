@@ -38,4 +38,4 @@ When it comes to writing things down, anything can be the subject.  But if all y
 <img src="{{edchao.github.io}}/assets/img_shortstacks.png" />
 </figure>
 
-Stack is currently being beta-tested. If you're interested in participating, <a href="https://twitter.com/edchao"> send me a tweet</a>.
+<a href="https://itunes.apple.com/us/app/stack-note-stream/id1018692435?mt=8">Download Stack from the App Store</a>.
