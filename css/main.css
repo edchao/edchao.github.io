@@ -38,8 +38,8 @@ html, body {
 ================================================== */
 body {
   background: #fff;
-  font: 16px/1.6 "Open Sans", Helvetica, Arial, sans-serif;
-  color: rgba(0, 0, 0, 0.8);
+  font: 16px/1.6 "Roboto", Helvetica, Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.75);
   -webkit-font-smoothing: antialiased;
   /* Fix for webkit rendering */
   -webkit-text-size-adjust: 100%; }
@@ -197,8 +197,8 @@ nav {
     position: absolute;
     font-family: 'Helvetica Neue' sans-serif;
     letter-spacing: 1px;
-    width: 28px;
-    height: 22px;
+    width: 25px;
+    height: 25px;
     right: 0px;
     font-size: 13px;
     font-weight: 300;
@@ -212,15 +212,15 @@ nav {
     -webkit-transition: all 0.4s;
     transition: all 0.4s;
     display: block;
-    width: 34px;
-    height: 34px;
-    background-image: url("/assets/icon_logo.png");
+    width: 40px;
+    height: 40px;
+    background-image: url("/assets/logo_min.png");
     background-size: 100%;
     content: " ";
-    margin: 60px auto 0 auto;
+    margin: 50px auto 0 auto;
     clear: both; }
     nav .nav_logo.is-shown {
-      margin: 13px auto 0 auto; }
+      margin: 10px auto 0 auto; }
 
 nav a {
   text-decoration: none;
@@ -235,8 +235,8 @@ nav a:hover {
   z-index: 9999999;
   font-family: 'Helvetica Neue' sans-serif;
   letter-spacing: 1px;
-  width: 24px;
-  height: 24px;
+  width: 25px;
+  height: 25px;
   left: 0px;
   font-size: 13px;
   font-weight: 300;
@@ -248,7 +248,7 @@ nav a:hover {
   background-size: 100%; }
 
 .opaque {
-  background-color: #f9f9f9;
+  background-color: #fff;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
 
 /*HEADER
@@ -310,11 +310,11 @@ header > .identity {
   left: 0;
   right: 0;
   margin: auto;
-  text-indent: 100%;
+  text-indent: 10000px;
   white-space: nowrap;
   overflow: hidden;
-  width: 300px;
-  height: 70px;
+  width: 320px;
+  height: 60px;
   background-image: url(/assets/logo.png);
   background-repeat: no-repeat;
   background-size: 100%; }
