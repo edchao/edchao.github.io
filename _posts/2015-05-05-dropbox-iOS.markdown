@@ -21,7 +21,7 @@ categories:
 
 _"I'm out of the office and my coworker has asked for a file... I'm standing on the train and my boss has asked me to respond to a comment they made on the file...Our agency just sent me a proof I need to approve but I've only got my phone."_
 
-During my first six months at Dropbox, these were the kinds of problems that I solved for on iOS. Here is a sample of the work I did.
+During my first six months at Dropbox, these were the kinds of problems that I solved for on iOS. Here is a sample of the work I shipped.
 
 ---
 
