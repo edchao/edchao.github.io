@@ -10,13 +10,18 @@ categories:
 ---
 
 <figure>
-<img src="{{edchao.github.io}}/assets/img_foragainst.jpg" />
+<img src="{{edchao.github.io}}/assets/img_foragainst_cover.jpg" />
 </figure>
 
 
 <!--more-->
 
-<strong>ForAgainst</strong> lets you post reasons why you are for or against any issue. Contribute an issue, post a reason, or upvote/downvote reasons other people have posted.  As time goes by, you decide which side is most compelling.
+## <strong>ForAgainst</strong> is an iOS app for knowing the issues.
+
+
+Post reasons why you are for or against any issue. Contribute an issue, post a reason, or upvote/downvote reasons other people have posted.  As time goes by, you decide which side is most compelling.
+
+---
 
 <figure>
 <img src="{{edchao.github.io}}/assets/img_foragainst_home.jpg" />

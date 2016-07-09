@@ -38,8 +38,8 @@ html, body {
 ================================================== */
 body {
   background: #fff;
-  font: 14px/1.6 "Open Sans", Helvetica, Arial, sans-serif;
-  color: #333;
+  font: 16px/1.6 "Open Sans", Helvetica, Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.8);
   -webkit-font-smoothing: antialiased;
   /* Fix for webkit rendering */
   -webkit-text-size-adjust: 100%; }
@@ -47,34 +47,37 @@ body {
 /* #Typography
 ================================================== */
 h1, h2, h3, h4, h5, h6 {
-  color: #111;
+  color: rgba(0, 0, 0, 0.9);
   font-weight: 400;
-  margin-bottom: 30px; }
+  margin-bottom: 20px; }
 
 h1 {
-  font-size: 40px;
-  line-height: 1.1; }
+  font-size: 22px;
+  line-height: 1.5; }
 
 h2 {
-  font-size: 30px;
-  line-height: 1.2; }
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 700; }
 
 h3 {
-  font-size: 24px;
-  line-height: 1.3; }
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 600;
+  color: rgba(0, 20, 50, 0.5); }
 
 h4 {
-  font-size: 20px;
-  line-height: 1.4; }
+  font-size: 16px;
+  line-height: 1.5; }
 
 h5 {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.5;
   font-weight: bold; }
 
 h6 {
-  font-size: 15px;
-  line-height: 1.6; }
+  font-size: 16px;
+  line-height: 1.5; }
 
 p {
   margin: 0 0 30px 0;
@@ -297,8 +300,8 @@ header > .title {
   height: 40px;
   background-repeat: no-repeat;
   background-size: 100%;
-  font-size: 24px;
-  font-weight: 400; }
+  font-size: 30px;
+  font-weight: bold; }
 
 header > .identity {
   position: absolute;
@@ -405,25 +408,47 @@ article {
   article ol {
     list-style: decimal; }
   @media only screen and (min-width: 301px) and (max-width: 500px) {
-    article h1, article h2, article h3, article h4, article h5, article p, article hr, article ul, article ol {
-      margin: 30px 0 30px 0; } }
+    article p {
+      margin: 0 0 20px 0; } }
   @media only screen and (min-width: 501px) and (max-width: 800px) {
-    article h1, article h2, article h3, article h4, article h5, article p, article hr, article ul, article ol {
-      margin: 30px 0 30px 0; } }
+    article p {
+      margin: 0 0 20px 0; } }
   @media only screen and (min-width: 801px) and (max-width: 800px) {
-    article h1, article h2, article h3, article h4, article h5, article p, article hr, article ul, article ol {
-      margin: 30px 0 30px 0; } }
+    article p {
+      margin: 0 0 20px 0; } }
   @media only screen and (min-width: 801px) and (max-width: 800px) {
-    article h1, article h2, article h3, article h4, article h5, article p, article hr, article ul, article ol {
-      margin: 30px 120px 30px 120px; } }
+    article p {
+      margin: 0 120px 20px 120px; } }
   @media only screen and (min-width: 801px) {
-    article h1, article h2, article h3, article h4, article h5, article p, article hr, article ul, article ol {
-      margin: 30px 120px 30px 120px; } }
+    article p {
+      margin: 0 120px 20px 120px; } }
+  @media only screen and (min-width: 301px) and (max-width: 500px) {
+    article h1, article h2, article h3, article h4, article h5, article hr, article ul, article ol {
+      margin: 30px 0 20px 0; } }
+  @media only screen and (min-width: 501px) and (max-width: 800px) {
+    article h1, article h2, article h3, article h4, article h5, article hr, article ul, article ol {
+      margin: 30px 0 20px 0; } }
+  @media only screen and (min-width: 801px) and (max-width: 800px) {
+    article h1, article h2, article h3, article h4, article h5, article hr, article ul, article ol {
+      margin: 30px 0 20px 0; } }
+  @media only screen and (min-width: 801px) and (max-width: 800px) {
+    article h1, article h2, article h3, article h4, article h5, article hr, article ul, article ol {
+      margin: 30px 120px 20px 120px; } }
+  @media only screen and (min-width: 801px) {
+    article h1, article h2, article h3, article h4, article h5, article hr, article ul, article ol {
+      margin: 30px 120px 20px 120px; } }
   article hr {
     margin-top: 60px;
-    margin-bottom: 60px; }
+    margin-bottom: 60px;
+    border: 1px solid transparent; }
   article h4, article h5 {
     margin-top: 60px; }
+  article ol {
+    margin-bottom: 60px; }
+  article li {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    margin-left: -10px; }
 
 figure > img {
   position: relative;

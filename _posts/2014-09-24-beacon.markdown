@@ -5,7 +5,6 @@ date:   2014-09-24 13:57:09
 tags:
 - ui
 categories:
-- published
 
 ---
 
@@ -20,11 +19,13 @@ to show interest.
 
 ---
 
-#### The Idea
+## For introverts
 
 In early 2014, my friend Glen had a wonderful and simple thought.  We had friends who were always left out, despite the fact that people were more than happy to hangout with them.  Since they were introverted by nature, they never actively sought out others or made themselves known when get togethers were being organized. The initial idea for Beacon came from the question "How can we get introverts to hang out?" How could we let introverts stay in character, while also letting their friends know that they were available to hang out? What we came up with was Beacon.  Let's take away the need to send out emails or texts, just let them flip a little switch, and their friends will know they're down.
 
-#### Early designs
+---
+
+## Early designs
 
 Initial designs for Beacon made it clear that we could make this a super simple experience.  There were very little elements that required displaying, and the main action was a switch.
 
@@ -44,7 +45,9 @@ Ultimately I settled on a grid based design, for two major reasons. First, it al
 <img src="{{edchao.github.io}}/assets/img_beacon_3.jpg" />
 </figure>
 
-#### Prototyping
+---
+
+## Prototyping
 
 Some time during the design phase, Koen Bok and his team elite released FramerJS.  It was (and continues to be) an amazing tool.  Suddenly, interactions became much more accessible to create.  Here are some of the interactions that I came up with.
 
@@ -56,7 +59,8 @@ Some time during the design phase, Koen Bok and his team elite released FramerJS
 <img src="{{edchao.github.io}}/assets/gif_beacon.gif" />
 </figure>
 
+---
 
-#### Conclusion
+## Conclusion
 
 Beacon is a project about getting to the essentials.  If there is no need for additional complexity, why introduce it?  Give just enough, and what you have will speak louder than ever.  The final app is a plain grid of faces with a small beacon icon beside it, either on or off.
