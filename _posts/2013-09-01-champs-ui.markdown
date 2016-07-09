@@ -38,9 +38,6 @@ The rules of the game are as follows.  You command a squad of 6 characters.  Eac
 </figure>
 
 
-<figure>
-<img src="{{edchao.github.io}}/assets/img_champs_cover.jpg" />
-</figure>
 Early in development we didn't have the visualization of souls being swept up into the kill count after a character was killed. As a result, during user-tests, people were surprised when the game ended, not realizing they had racked up the target number of kills.  Once we introduced the soul collection the problem was resolved since users would relish the kill count ticking up whenever a soul was collected.
 
 ---
