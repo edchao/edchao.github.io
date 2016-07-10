@@ -272,32 +272,12 @@ header.hero {
       height: 400px; } }
 
 header.post {
-  position: relative; }
-  @media only screen and (min-width: 301px) and (max-width: 500px) {
-    header.post {
-      height: 100px; } }
-  @media only screen and (min-width: 501px) and (max-width: 800px) {
-    header.post {
-      height: 200px; } }
-  @media only screen and (min-width: 801px) and (max-width: 800px) {
-    header.post {
-      height: 200px; } }
-  @media only screen and (min-width: 801px) and (max-width: 800px) {
-    header.post {
-      height: 200px; } }
-  @media only screen and (min-width: 801px) {
-    header.post {
-      height: 200px; } }
+  position: relative;
+  height: auto; }
 
 header > .title {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
+  margin: 60px 0;
   text-align: center;
-  height: 40px;
   background-repeat: no-repeat;
   background-size: 100%;
   font-size: 30px;
