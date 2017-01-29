@@ -2,6 +2,8 @@
 layout: article
 title:  "For Against"
 date:   2015-06-06 13:57:09
+headline: "An iOS app for knowing the issues"
+co: "Personal"
 tags:
 - ui
 - interaction

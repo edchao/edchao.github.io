@@ -17,40 +17,25 @@ title: Work
 </script>
 
 <header class="container hero">
-  <div class="nav-trigger identity"> Ed Chao </div>
+  <div class="hero_wrapper">
+    <div class="hero_glyph"></div>
+    <div class="nav-trigger hero_identity"> <strong>Ed Chao</strong> product design</div>
+  </div>
 </header>
-
-<div class="container about">
-  <div class="about_social">
-    <ul class="about_capsule">
-      <li><a href="http://twitter.com/edchao">Twitter</a></li>
-      <li><a href="http://dribbble.com/edchao">Dribbble</a></li>
-      <li><a href="http://instagram.com/edchao">Instagram</a></li>
-    </ul>
-  </div>
-  <div class="about_social">
-    <ul class="about_capsule">
-      <li><a class="link_email" href="#">Email</a></li>
-      <li><a href="http://linkedin.com/in/eddchao/">LinkedIn</a></li>
-    </ul>
-  </div>
-  <div class="about_summary">
-    <div class="about_capsule">
-      <p> <strong>Currently Product Designer at Dropbox.</strong> Previously Lead Designer at Guidebook, Creative Director at Quark Games and Founder at Legitimate Hero. Always building. </p>
-    </div>
-  </div>
-</div>
 
 <div class="container grid">
   {% for post in site.posts %}
     {% if post.categories contains 'published' %}
-      <a href="{{ post.url }}">
-        <div class="grid_card_wrapper">
-          <div class="grid_card ">
-          {{ post.content | split: '<!--more-->' | first }}
-          </div>
+      <div class="grid_card_wrapper">
+        <div class="grid_card_description">
+          <a href="{{ post.url }}">
+            <p class="grid_card_headline">{{ post.headline }}</p>
+            <p class="grid_card_co">{{ post.co }}</p>
+            <p class="grid_card_date">{{ post.date | date: "%Y" }}</p>
+          </a>
         </div>
-      </a>
+        {{ post.content | split: '<!--more-->' | first }}
+      </div>
     {% endif %}
   {% endfor %}
 </div>

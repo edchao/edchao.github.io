@@ -2,15 +2,18 @@
 layout: article
 title:  "Dropbox Redesign"
 date:   2016-05-30 13:57:09
+headline: "Unifying Dropbox on the web"
+co: "Dropbox"
 tags:
 - ui
 - interaction
 categories:
+- published
 ---
 
 
 <figure>
-<img src="{{edchao.github.io}}/assets/img_champs_cover.jpg" />
+<img src="{{edchao.github.io}}/assets/gif_dropbox.gif" />
 </figure>
 
 <!--more-->
