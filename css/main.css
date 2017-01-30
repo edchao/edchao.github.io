@@ -1,5 +1,4 @@
 /*@import "v1.scss";*/
-/* Variables */
 /* #Reset & Basics (Inspired by E. Meyers)
 ================================================== */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -118,67 +117,30 @@ a {
 a:hover, a:focus {
   color: #000; }
 
-/* Grid Settings
-  ========================================================================== */
-/* Grid Generator
-  ========================================================================== */
 /* Breakpoints
   ========================================================================== */
 .container {
-  margin: 0 auto; }
-  @media only screen and (min-width: 301px) and (max-width: 500px) {
+  margin: 0 auto;
+  padding: 0 16px;
+  box-sizing: border-box; }
+  @media only screen and (min-width: 281px) and (max-width: 340px) {
     .container {
-      width: 300px; } }
-  @media only screen and (min-width: 501px) and (max-width: 800px) {
+      width: 280px; } }
+  @media only screen and (min-width: 341px) and (max-width: 500px) {
+    .container {
+      width: 340px; } }
+  @media only screen and (min-width: 501px) and (max-width: 960px) {
     .container {
       width: 500px; } }
-  @media only screen and (min-width: 801px) and (max-width: 800px) {
+  @media only screen and (min-width: 961px) and (max-width: 1020px) {
     .container {
-      width: 800px; } }
-  @media only screen and (min-width: 801px) and (max-width: 800px) {
+      width: 960px; } }
+  @media only screen and (min-width: 1021px) and (max-width: 1020px) {
     .container {
-      width: 800px; } }
-  @media only screen and (min-width: 801px) {
+      width: 1020px; } }
+  @media only screen and (min-width: 1021px) {
     .container {
-      width: 800px; } }
-
-/* Gutter class
-  ========================================================================== */
-.gutter-wrapper {
-  margin: 40px; }
-
-/* #Clearing - by Dave Gamache
-  ========================================================================== */
-.container:after {
-  content: "\0020";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden; }
-
-.clearfix:before,
-.clearfix:after {
-  content: '\0020';
-  display: block;
-  overflow: hidden;
-  visibility: hidden;
-  width: 0;
-  height: 0; }
-
-.clearfix:after {
-  clear: both; }
-
-.clearfix {
-  zoom: 1; }
-
-/* You can also use a <br class="clear" /> to clear columns */
-.clear {
-  clear: both;
-  display: block;
-  overflow: hidden;
-  visibility: hidden;
-  width: 0;
-  height: 0; }
+      width: 1020px; } }
 
 /*NAV
 ------------------------------------------*/
@@ -219,10 +181,11 @@ nav {
     background-image: url("/assets/logo_min.png");
     background-size: 100%;
     content: " ";
-    margin: 50px auto 0 auto;
+    margin-top: 50px;
+    margin-left: 8px;
     clear: both; }
     nav .nav_logo.is-shown {
-      margin: 10px auto 0 auto; }
+      margin-top: 10px; }
 
 nav a {
   text-decoration: none;
@@ -230,25 +193,6 @@ nav a {
 
 nav a:hover {
   color: black; }
-
-.nav_back {
-  display: block;
-  position: fixed;
-  top: 0px;
-  z-index: 9999999;
-  font-family: 'Helvetica Neue' sans-serif;
-  letter-spacing: 1px;
-  width: 25px;
-  height: 25px;
-  left: 0px;
-  font-size: 13px;
-  font-weight: 400;
-  margin: 20px;
-  color: #ddd;
-  text-indent: -999999px;
-  background-image: url("/assets/icon_back.png");
-  background-repeat: no-repeat;
-  background-size: 100%; }
 
 .opaque {
   background-color: #fff;
@@ -261,7 +205,7 @@ header.hero {
   align-items: center;
   position: relative;
   height: 400px; }
-  @media only screen and (min-width: 301px) and (max-width: 500px) {
+  @media only screen and (min-width: 281px) and (max-width: 340px) {
     header.hero {
       height: 280px; } }
 
@@ -297,19 +241,22 @@ header > .title {
   margin-bottom: 32px; }
   .grid_card_wrapper .grid_card_description {
     width: calc(60% - 16px); }
-    @media only screen and (min-width: 301px) and (max-width: 500px) {
+    @media only screen and (min-width: 281px) and (max-width: 340px) {
       .grid_card_wrapper .grid_card_description {
         width: calc(60% - 16px); } }
-    @media only screen and (min-width: 501px) and (max-width: 800px) {
+    @media only screen and (min-width: 341px) and (max-width: 500px) {
       .grid_card_wrapper .grid_card_description {
         width: calc(60% - 16px); } }
-    @media only screen and (min-width: 801px) and (max-width: 800px) {
+    @media only screen and (min-width: 501px) and (max-width: 960px) {
+      .grid_card_wrapper .grid_card_description {
+        width: calc(60% - 16px); } }
+    @media only screen and (min-width: 961px) and (max-width: 1020px) {
       .grid_card_wrapper .grid_card_description {
         width: calc(33% - 16px); } }
-    @media only screen and (min-width: 801px) and (max-width: 800px) {
+    @media only screen and (min-width: 1021px) and (max-width: 1020px) {
       .grid_card_wrapper .grid_card_description {
         width: calc(33% - 16px); } }
-    @media only screen and (min-width: 801px) {
+    @media only screen and (min-width: 1021px) {
       .grid_card_wrapper .grid_card_description {
         width: calc(33% - 16px); } }
   .grid_card_wrapper .grid_card_headline {
@@ -318,10 +265,13 @@ header > .title {
     font-weight: 500;
     color: #000;
     margin-bottom: 16px; }
-    @media only screen and (min-width: 301px) and (max-width: 500px) {
+    @media only screen and (min-width: 281px) and (max-width: 340px) {
       .grid_card_wrapper .grid_card_headline {
         font-size: 16px; } }
-    @media only screen and (min-width: 501px) and (max-width: 800px) {
+    @media only screen and (min-width: 341px) and (max-width: 500px) {
+      .grid_card_wrapper .grid_card_headline {
+        font-size: 20px; } }
+    @media only screen and (min-width: 501px) and (max-width: 960px) {
       .grid_card_wrapper .grid_card_headline {
         font-size: 24px; } }
   .grid_card_wrapper .grid_card_co {
@@ -339,38 +289,58 @@ header > .title {
       width: 50px;
       height: 1px;
       background-color: #e9e9e9; }
-    @media only screen and (min-width: 301px) and (max-width: 500px) {
+      @media only screen and (min-width: 281px) and (max-width: 340px) {
+        .grid_card_wrapper .grid_card_co:before {
+          display: none; } }
+      @media only screen and (min-width: 341px) and (max-width: 500px) {
+        .grid_card_wrapper .grid_card_co:before {
+          display: none; } }
+      @media only screen and (min-width: 501px) and (max-width: 960px) {
+        .grid_card_wrapper .grid_card_co:before {
+          display: none; } }
+    @media only screen and (min-width: 281px) and (max-width: 340px) {
       .grid_card_wrapper .grid_card_co {
-        font-size: 10px; } }
-    @media only screen and (min-width: 501px) and (max-width: 800px) {
+        font-size: 10px;
+        line-height: 10px; } }
+    @media only screen and (min-width: 341px) and (max-width: 500px) {
       .grid_card_wrapper .grid_card_co {
-        font-size: 10px; } }
+        font-size: 10px;
+        line-height: 10px; } }
+    @media only screen and (min-width: 501px) and (max-width: 960px) {
+      .grid_card_wrapper .grid_card_co {
+        font-size: 10px;
+        line-height: 10px; } }
   .grid_card_wrapper .grid_card_date {
     font-size: 12px;
     color: #000;
     margin-bottom: 0px; }
-    @media only screen and (min-width: 301px) and (max-width: 500px) {
+    @media only screen and (min-width: 281px) and (max-width: 340px) {
       .grid_card_wrapper .grid_card_date {
         font-size: 10px; } }
-    @media only screen and (min-width: 501px) and (max-width: 800px) {
+    @media only screen and (min-width: 501px) and (max-width: 960px) {
       .grid_card_wrapper .grid_card_date {
         font-size: 10px; } }
   .grid_card_wrapper figure {
-    margin: 0 0 0 auto;
-    height: auto;
-    width: calc(66%); }
-    @media only screen and (min-width: 301px) and (max-width: 500px) {
-      .grid_card_wrapper figure {
-        width: calc(33%); } }
-    @media only screen and (min-width: 501px) and (max-width: 800px) {
-      .grid_card_wrapper figure {
-        width: calc(33%); } }
+    height: auto; }
   .grid_card_wrapper img {
     float: center;
     height: auto;
     width: 100%;
     padding: none;
     vertical-align: top; }
+  .grid_card_wrapper a.link_block {
+    display: inline-block;
+    width: calc(66%);
+    margin: 0 0 0 auto; }
+    @media only screen and (min-width: 281px) and (max-width: 340px) {
+      .grid_card_wrapper a.link_block {
+        width: calc(33%); } }
+    @media only screen and (min-width: 341px) and (max-width: 500px) {
+      .grid_card_wrapper a.link_block {
+        width: calc(33%); } }
+    @media only screen and (min-width: 501px) and (max-width: 960px) {
+      .grid_card_wrapper a.link_block {
+        width: calc(33%); } }
 
 /*FOOTER
 ------------------------------------------*/
@@ -384,34 +354,34 @@ article {
   padding: 0 10px; }
   article ol {
     list-style: decimal; }
-  @media only screen and (min-width: 301px) and (max-width: 500px) {
+  @media only screen and (min-width: 281px) and (max-width: 340px) {
     article p {
       margin: 0 0 20px 0; } }
-  @media only screen and (min-width: 501px) and (max-width: 800px) {
+  @media only screen and (min-width: 501px) and (max-width: 960px) {
     article p {
       margin: 0 0 20px 0; } }
-  @media only screen and (min-width: 801px) and (max-width: 800px) {
+  @media only screen and (min-width: 961px) and (max-width: 1020px) {
     article p {
       margin: 0 0 20px 0; } }
-  @media only screen and (min-width: 801px) and (max-width: 800px) {
+  @media only screen and (min-width: 1021px) and (max-width: 1020px) {
     article p {
       margin: 0 120px 20px 120px; } }
-  @media only screen and (min-width: 801px) {
+  @media only screen and (min-width: 1021px) {
     article p {
       margin: 0 120px 20px 120px; } }
-  @media only screen and (min-width: 301px) and (max-width: 500px) {
+  @media only screen and (min-width: 281px) and (max-width: 340px) {
     article h1, article h2, article h3, article h4, article h5, article hr, article ul, article ol {
       margin: 30px 0 20px 0; } }
-  @media only screen and (min-width: 501px) and (max-width: 800px) {
+  @media only screen and (min-width: 501px) and (max-width: 960px) {
     article h1, article h2, article h3, article h4, article h5, article hr, article ul, article ol {
       margin: 30px 0 20px 0; } }
-  @media only screen and (min-width: 801px) and (max-width: 800px) {
+  @media only screen and (min-width: 961px) and (max-width: 1020px) {
     article h1, article h2, article h3, article h4, article h5, article hr, article ul, article ol {
       margin: 30px 0 20px 0; } }
-  @media only screen and (min-width: 801px) and (max-width: 800px) {
+  @media only screen and (min-width: 1021px) and (max-width: 1020px) {
     article h1, article h2, article h3, article h4, article h5, article hr, article ul, article ol {
       margin: 30px 120px 20px 120px; } }
-  @media only screen and (min-width: 801px) {
+  @media only screen and (min-width: 1021px) {
     article h1, article h2, article h3, article h4, article h5, article hr, article ul, article ol {
       margin: 30px 120px 20px 120px; } }
   article hr {

@@ -34,7 +34,9 @@ title: Work
             <p class="grid_card_date">{{ post.date | date: "%Y" }}</p>
           </a>
         </div>
+        <a class="link_block" href="{{ post.url }}">
         {{ post.content | split: '<!--more-->' | first }}
+        <a/>
       </div>
     {% endif %}
   {% endfor %}
