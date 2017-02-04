@@ -1,7 +1,7 @@
 ---
 layout: article
 title:  "Framer Experiments"
-date:   2014-09-27 13:57:09
+date:   2014-10-27 13:57:09
 headline: "Experiments with Framer JS"
 co: "Personal"
 tags:
@@ -13,7 +13,7 @@ categories:
 ---
 
 <figure>
-<img src="{{edchao.github.io}}/assets/img_framer_cover.jpg" />
+<img src="{{edchao.github.io}}/assets/gif_framer.gif" />
 </figure>
 
 <!--more-->

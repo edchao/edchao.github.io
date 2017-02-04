@@ -2,7 +2,7 @@
 layout: article
 title:  "For Against"
 date:   2015-06-06 13:57:09
-headline: "An iOS app for knowing the issues"
+headline: "An iOS app for weighing in on the issues"
 co: "Personal"
 tags:
 - ui
@@ -12,22 +12,17 @@ categories:
 ---
 
 <figure>
-<img src="{{edchao.github.io}}/assets/img_foragainst_cover.jpg" />
+<img src="{{edchao.github.io}}/assets/img_foragainst_home.jpg" />
 </figure>
-
 
 <!--more-->
 
-## <strong>ForAgainst</strong> is an iOS app for knowing the issues.
+## <strong>ForAgainst</strong> is an iOS app for weighing in on the issues.
 
 
 Post reasons why you are for or against any issue. Contribute an issue, post a reason, or upvote/downvote reasons other people have posted.  As time goes by, you decide which side is most compelling.
 
 ---
-
-<figure>
-<img src="{{edchao.github.io}}/assets/img_foragainst_home.jpg" />
-</figure>
 
 <iframe width="800" height="421" src="https://www.youtube.com/embed/XOjMgZH8_4g" frameborder="0" allowfullscreen></iframe>
 

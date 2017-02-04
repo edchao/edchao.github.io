@@ -2,7 +2,7 @@
 layout: article
 title:  "Dropbox iOS"
 date:   2015-05-05 13:57:09
-headline: "Your Dropbox on the go"
+headline: "Dropbox when you're on the go"
 co: "Dropbox"
 tags:
 - ui
