@@ -31,7 +31,7 @@
 	body {
 		background: #fff;
 		font: 16px/1.6 "Roboto", Helvetica, Arial, sans-serif;
-		color: rgba(0,0,0,0.75);
+		color: $color_text;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
  }
@@ -40,7 +40,7 @@
 /* #Typography
 ================================================== */
 h1, h2, h3, h4, h5, h6 {
-	color: rgba(0,0,0,0.9);
+	color: $color_text;
 	font-weight: 400;
 	margin-bottom: 20px;
 }
