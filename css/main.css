@@ -52,19 +52,18 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 20px; }
 
 h1 {
-  font-size: 22px;
+  font-size: 30px;
   line-height: 1.5; }
 
 h2 {
-  font-size: 20px;
+  font-size: 24px;
   line-height: 1.5;
-  font-weight: 700; }
+  font-weight: 500; }
 
 h3 {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
-  font-weight: 600;
-  color: rgba(0, 20, 50, 0.5); }
+  font-weight: 500; }
 
 h4 {
   font-size: 16px;
@@ -88,7 +87,7 @@ em {
   font-style: italic; }
 
 strong {
-  font-weight: bold; }
+  font-weight: 500; }
 
 hr {
   border: solid #ddd;
@@ -110,74 +109,37 @@ pre {
 /* #Links
 ================================================== */
 a {
-  color: #888;
-  text-decoration: underline;
+  color: #772BFF;
+  text-decoration: none;
   outline: 0; }
 
 a:hover, a:focus {
-  color: #000; }
+  color: #772BFF; }
 
-/* Grid Settings
-  ========================================================================== */
-/* Grid Generator
-  ========================================================================== */
 /* Breakpoints
   ========================================================================== */
 .container {
-  margin: 0 auto; }
-  @media only screen and (min-width: 301px) and (max-width: 500px) {
+  margin: 0 auto;
+  padding: 0 16px;
+  box-sizing: border-box; }
+  @media only screen and (min-width: 281px) and (max-width: 340px) {
     .container {
-      width: 300px; } }
-  @media only screen and (min-width: 501px) and (max-width: 800px) {
+      width: 280px; } }
+  @media only screen and (min-width: 341px) and (max-width: 500px) {
+    .container {
+      width: 340px; } }
+  @media only screen and (min-width: 501px) and (max-width: 960px) {
     .container {
       width: 500px; } }
-  @media only screen and (min-width: 801px) and (max-width: 800px) {
+  @media only screen and (min-width: 961px) and (max-width: 1020px) {
     .container {
-      width: 800px; } }
-  @media only screen and (min-width: 801px) and (max-width: 800px) {
+      width: 960px; } }
+  @media only screen and (min-width: 1021px) and (max-width: 1020px) {
     .container {
-      width: 800px; } }
-  @media only screen and (min-width: 801px) {
+      width: 1020px; } }
+  @media only screen and (min-width: 1021px) {
     .container {
-      width: 800px; } }
-
-/* Gutter class
-  ========================================================================== */
-.gutter-wrapper {
-  margin: 40px; }
-
-/* #Clearing - by Dave Gamache
-  ========================================================================== */
-.container:after {
-  content: "\0020";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden; }
-
-.clearfix:before,
-.clearfix:after {
-  content: '\0020';
-  display: block;
-  overflow: hidden;
-  visibility: hidden;
-  width: 0;
-  height: 0; }
-
-.clearfix:after {
-  clear: both; }
-
-.clearfix {
-  zoom: 1; }
-
-/* You can also use a <br class="clear" /> to clear columns */
-.clear {
-  clear: both;
-  display: block;
-  overflow: hidden;
-  visibility: hidden;
-  width: 0;
-  height: 0; }
+      width: 1020px; } }
 
 /*NAV
 ------------------------------------------*/
@@ -202,7 +164,7 @@ nav {
     height: 25px;
     right: 0px;
     font-size: 13px;
-    font-weight: 300;
+    font-weight: 400;
     margin: 20px;
     color: #ddd;
     text-indent: -999999px;
@@ -218,10 +180,11 @@ nav {
     background-image: url("/assets/logo_min.png");
     background-size: 100%;
     content: " ";
-    margin: 50px auto 0 auto;
+    margin-top: 50px;
+    margin-left: 8px;
     clear: both; }
     nav .nav_logo.is-shown {
-      margin: 10px auto 0 auto; }
+      margin-top: 10px; }
 
 nav a {
   text-decoration: none;
@@ -230,25 +193,6 @@ nav a {
 nav a:hover {
   color: black; }
 
-.nav_back {
-  display: block;
-  position: fixed;
-  top: 0px;
-  z-index: 9999999;
-  font-family: 'Helvetica Neue' sans-serif;
-  letter-spacing: 1px;
-  width: 25px;
-  height: 25px;
-  left: 0px;
-  font-size: 13px;
-  font-weight: 300;
-  margin: 20px;
-  color: #ddd;
-  text-indent: -999999px;
-  background-image: url("/assets/icon_back.png");
-  background-repeat: no-repeat;
-  background-size: 100%; }
-
 .opaque {
   background-color: #fff;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
@@ -256,22 +200,13 @@ nav a:hover {
 /*HEADER
 ------------------------------------------*/
 header.hero {
-  position: relative; }
-  @media only screen and (min-width: 301px) and (max-width: 500px) {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 400px; }
+  @media only screen and (min-width: 281px) and (max-width: 340px) {
     header.hero {
       height: 280px; } }
-  @media only screen and (min-width: 501px) and (max-width: 800px) {
-    header.hero {
-      height: 230px; } }
-  @media only screen and (min-width: 801px) and (max-width: 800px) {
-    header.hero {
-      height: 250px; } }
-  @media only screen and (min-width: 801px) and (max-width: 800px) {
-    header.hero {
-      height: 250px; } }
-  @media only screen and (min-width: 801px) {
-    header.hero {
-      height: 400px; } }
 
 header.post {
   position: relative;
@@ -283,99 +218,154 @@ header > .title {
   background-repeat: no-repeat;
   background-size: 100%;
   font-size: 30px;
-  font-weight: bold; }
+  font-weight: 500; }
 
-header > .identity {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  text-indent: 10000px;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 300px;
-  height: 60px;
-  background-image: url(/assets/logo.png);
-  background-repeat: no-repeat;
+/* HERO
+------------------------------------------*/
+.hero_glyph {
+  display: block;
+  width: 40px;
+  height: 52px;
+  margin-bottom: 32px;
+  background-image: url(../assets/icon_glyph.png);
   background-size: 100%; }
 
-/*ABOUT
-------------------------------------------*/
-.about {
-  margin-bottom: 30px; }
+.hero_name {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif; }
 
-.about_capsule {
-  padding: 10px; }
-
-.about_social {
-  width: 16.66667%;
-  float: left;
-  display: inline; }
-  .about_social a:link, .about_social a:active, .about_social a:hover, .about_social a:visited {
-    text-decoration: none; }
-  @media only screen and (min-width: 301px) and (max-width: 500px) {
-    .about_social {
-      width: 50%;
-      float: left;
-      display: inline; } }
-
-.about_summary {
-  width: 66.66667%;
-  float: left;
-  display: inline; }
-  @media only screen and (min-width: 301px) and (max-width: 500px) {
-    .about_summary {
-      display: none; } }
+ul.hero_contact {
+  font-size: 12px;
+  padding: 0px;
+  margin: 0px;
+  cursor: pointer; }
+  ul.hero_contact a {
+    color: #000; }
+  ul.hero_contact a:hover {
+    color: #772BFF; }
+  ul.hero_contact li {
+    display: inline-block;
+    padding: 0px;
+    line-height: 24px;
+    margin-right: 8px; }
 
 /*GRID
 ------------------------------------------*/
-.grid_card_wrapper {
-  float: left; }
-  @media only screen and (min-width: 301px) and (max-width: 500px) {
-    .grid_card_wrapper {
-      width: 300px; } }
-  @media only screen and (min-width: 501px) and (max-width: 800px) {
-    .grid_card_wrapper {
-      width: 250px; } }
-  @media only screen and (min-width: 801px) and (max-width: 800px) {
-    .grid_card_wrapper {
-      width: 266px; } }
-  @media only screen and (min-width: 801px) and (max-width: 800px) {
-    .grid_card_wrapper {
-      width: 266px; } }
-  @media only screen and (min-width: 801px) {
-    .grid_card_wrapper {
-      width: 266px; } }
+.hide_me {
+  opacity: 0; }
 
-.grid_card {
+.grid_card_wrapper {
   float: left;
-  margin: 0 10px 20px 10px;
-  border-radius: 4px;
-  border: none;
-  overflow: hidden;
-  background-color: #e9e9e9; }
-  @media only screen and (min-width: 301px) and (max-width: 500px) {
-    .grid_card {
-      height: 270px; } }
-  @media only screen and (min-width: 501px) and (max-width: 800px) {
-    .grid_card {
-      height: 220px; } }
-  @media only screen and (min-width: 801px) and (max-width: 800px) {
-    .grid_card {
-      height: 240px; } }
-  @media only screen and (min-width: 801px) and (max-width: 800px) {
-    .grid_card {
-      height: 240px; } }
-  @media only screen and (min-width: 801px) {
-    .grid_card {
-      height: 240px; } }
-  .grid_card img {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-bottom: 32px; }
+  .grid_card_wrapper:hover .grid_card_headline, .grid_card_wrapper:hover .grid_card_co, .grid_card_wrapper:hover .grid_card_date {
+    color: #772BFF; }
+  .grid_card_wrapper .grid_card_description {
+    width: calc(60% - 16px); }
+    @media only screen and (min-width: 281px) and (max-width: 340px) {
+      .grid_card_wrapper .grid_card_description {
+        width: calc(60% - 16px); } }
+    @media only screen and (min-width: 341px) and (max-width: 500px) {
+      .grid_card_wrapper .grid_card_description {
+        width: calc(60% - 16px); } }
+    @media only screen and (min-width: 501px) and (max-width: 960px) {
+      .grid_card_wrapper .grid_card_description {
+        width: calc(60% - 16px); } }
+    @media only screen and (min-width: 961px) and (max-width: 1020px) {
+      .grid_card_wrapper .grid_card_description {
+        width: calc(33% - 16px); } }
+    @media only screen and (min-width: 1021px) and (max-width: 1020px) {
+      .grid_card_wrapper .grid_card_description {
+        width: calc(33% - 16px); } }
+    @media only screen and (min-width: 1021px) {
+      .grid_card_wrapper .grid_card_description {
+        width: calc(33% - 16px); } }
+  .grid_card_wrapper .grid_card_headline {
+    font-size: 30px;
+    line-height: 1.5em;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 16px; }
+    @media only screen and (min-width: 281px) and (max-width: 340px) {
+      .grid_card_wrapper .grid_card_headline {
+        font-size: 16px; } }
+    @media only screen and (min-width: 341px) and (max-width: 500px) {
+      .grid_card_wrapper .grid_card_headline {
+        font-size: 20px; } }
+    @media only screen and (min-width: 501px) and (max-width: 960px) {
+      .grid_card_wrapper .grid_card_headline {
+        font-size: 24px; } }
+  .grid_card_wrapper .grid_card_co {
+    font-size: 12px;
+    color: #000;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    line-height: 16px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif; }
+    .grid_card_wrapper .grid_card_co:before {
+      content: "";
+      margin-bottom: 16px;
+      display: block;
+      width: 50px;
+      height: 1px;
+      background-color: #e9e9e9; }
+      @media only screen and (min-width: 281px) and (max-width: 340px) {
+        .grid_card_wrapper .grid_card_co:before {
+          display: none; } }
+      @media only screen and (min-width: 341px) and (max-width: 500px) {
+        .grid_card_wrapper .grid_card_co:before {
+          display: none; } }
+      @media only screen and (min-width: 501px) and (max-width: 960px) {
+        .grid_card_wrapper .grid_card_co:before {
+          display: none; } }
+    @media only screen and (min-width: 281px) and (max-width: 340px) {
+      .grid_card_wrapper .grid_card_co {
+        font-size: 10px;
+        line-height: 10px; } }
+    @media only screen and (min-width: 341px) and (max-width: 500px) {
+      .grid_card_wrapper .grid_card_co {
+        font-size: 10px;
+        line-height: 10px; } }
+    @media only screen and (min-width: 501px) and (max-width: 960px) {
+      .grid_card_wrapper .grid_card_co {
+        font-size: 10px;
+        line-height: 10px; } }
+  .grid_card_wrapper .grid_card_date {
+    font-size: 12px;
+    color: #000;
+    margin-bottom: 0px; }
+    @media only screen and (min-width: 281px) and (max-width: 340px) {
+      .grid_card_wrapper .grid_card_date {
+        font-size: 10px; } }
+    @media only screen and (min-width: 501px) and (max-width: 960px) {
+      .grid_card_wrapper .grid_card_date {
+        font-size: 10px; } }
+  .grid_card_wrapper figure {
+    height: auto; }
+  .grid_card_wrapper img {
     float: center;
+    height: auto;
     width: 100%;
     padding: none;
     vertical-align: top; }
+  .grid_card_wrapper a.link_block {
+    display: inline-block;
+    width: calc(66%);
+    margin: 0 0 0 auto; }
+    @media only screen and (min-width: 281px) and (max-width: 340px) {
+      .grid_card_wrapper a.link_block {
+        width: calc(33%); } }
+    @media only screen and (min-width: 341px) and (max-width: 500px) {
+      .grid_card_wrapper a.link_block {
+        width: calc(33%); } }
+    @media only screen and (min-width: 501px) and (max-width: 960px) {
+      .grid_card_wrapper a.link_block {
+        width: calc(33%); } }
 
 /*FOOTER
 ------------------------------------------*/
@@ -389,34 +379,34 @@ article {
   padding: 0 10px; }
   article ol {
     list-style: decimal; }
-  @media only screen and (min-width: 301px) and (max-width: 500px) {
+  @media only screen and (min-width: 281px) and (max-width: 340px) {
     article p {
       margin: 0 0 20px 0; } }
-  @media only screen and (min-width: 501px) and (max-width: 800px) {
+  @media only screen and (min-width: 501px) and (max-width: 960px) {
     article p {
       margin: 0 0 20px 0; } }
-  @media only screen and (min-width: 801px) and (max-width: 800px) {
+  @media only screen and (min-width: 961px) and (max-width: 1020px) {
     article p {
       margin: 0 0 20px 0; } }
-  @media only screen and (min-width: 801px) and (max-width: 800px) {
+  @media only screen and (min-width: 1021px) and (max-width: 1020px) {
     article p {
       margin: 0 120px 20px 120px; } }
-  @media only screen and (min-width: 801px) {
+  @media only screen and (min-width: 1021px) {
     article p {
       margin: 0 120px 20px 120px; } }
-  @media only screen and (min-width: 301px) and (max-width: 500px) {
+  @media only screen and (min-width: 281px) and (max-width: 340px) {
     article h1, article h2, article h3, article h4, article h5, article hr, article ul, article ol {
       margin: 30px 0 20px 0; } }
-  @media only screen and (min-width: 501px) and (max-width: 800px) {
+  @media only screen and (min-width: 501px) and (max-width: 960px) {
     article h1, article h2, article h3, article h4, article h5, article hr, article ul, article ol {
       margin: 30px 0 20px 0; } }
-  @media only screen and (min-width: 801px) and (max-width: 800px) {
+  @media only screen and (min-width: 961px) and (max-width: 1020px) {
     article h1, article h2, article h3, article h4, article h5, article hr, article ul, article ol {
       margin: 30px 0 20px 0; } }
-  @media only screen and (min-width: 801px) and (max-width: 800px) {
+  @media only screen and (min-width: 1021px) and (max-width: 1020px) {
     article h1, article h2, article h3, article h4, article h5, article hr, article ul, article ol {
       margin: 30px 120px 20px 120px; } }
-  @media only screen and (min-width: 801px) {
+  @media only screen and (min-width: 1021px) {
     article h1, article h2, article h3, article h4, article h5, article hr, article ul, article ol {
       margin: 30px 120px 20px 120px; } }
   article hr {

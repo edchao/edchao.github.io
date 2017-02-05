@@ -1,0 +1,53 @@
+/* Breakpoints
+  ========================================================================== */
+  $widescreen : 1020px;
+  $desktop : 1020px;
+  $laptop : 960px;
+  $tablet : 500px;
+  $phablet: 340px;
+  $mobile : 280px;
+
+@mixin respond-to($type){
+  @if $type == mobile{
+    @media only screen and (min-width: $mobile + 1) and (max-width: $phablet) { @content; }
+  }
+  @elseif $type == phablet{
+    @media only screen and (min-width: $phablet + 1) and (max-width: $tablet) { @content; }
+  }
+  @elseif $type == tablet{
+    @media only screen and (min-width: $tablet + 1) and (max-width: $laptop) { @content; }
+  }
+  @elseif $type == laptop {
+    @media only screen and (min-width: $laptop + 1) and (max-width: $desktop) { @content; }
+  }
+  @elseif $type == desktop {
+    @media only screen and (min-width: $desktop + 1) and (max-width: $widescreen) { @content }
+  }
+  @elseif $type == widescreen {
+    @media only screen and (min-width: $widescreen + 1) { @content }
+  }
+}
+
+.container {
+  @include respond-to(mobile){
+    width: $mobile;
+  }
+  @include respond-to(phablet){
+    width: $phablet;
+  }
+  @include respond-to(tablet){
+    width: $tablet;
+  }
+  @include respond-to(laptop){
+    width: $laptop;
+  }
+  @include respond-to(desktop){
+    width: $desktop;
+  }
+  @include respond-to(widescreen){
+    width: $widescreen;
+  }
+  margin: 0 auto;
+  padding: 0 16px;
+  box-sizing: border-box;
+}

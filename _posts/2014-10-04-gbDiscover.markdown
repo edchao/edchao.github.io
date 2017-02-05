@@ -2,6 +2,8 @@
 layout: article
 title:  "Guidebook Discovery"
 date:   2014-10-04 13:57:09
+headline: "Discovering events with Guidebook"
+co: "Guidebook"
 tags:
 - ui
 - interaction

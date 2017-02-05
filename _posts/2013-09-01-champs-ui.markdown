@@ -2,6 +2,8 @@
 layout: article
 title:  "Champs : Battlegrounds"
 date:   2013-09-01 19:20:09
+headline: "Multiplayer online squad strategy"
+co: "Quark"
 tags:
 - ui
 categories:

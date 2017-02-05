@@ -2,6 +2,8 @@
 layout: article
 title:  "Dropbox iOS"
 date:   2015-05-05 13:57:09
+headline: "Dropbox when you're on the go"
+co: "Dropbox"
 tags:
 - ui
 - interaction

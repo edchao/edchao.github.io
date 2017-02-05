@@ -1,7 +1,9 @@
 ---
 layout: article
 title:  "Framer Experiments"
-date:   2014-09-27 13:57:09
+date:   2014-10-27 13:57:09
+headline: "Experiments with Framer JS"
+co: "Personal"
 tags:
 - ui
 - interaction
@@ -11,7 +13,7 @@ categories:
 ---
 
 <figure>
-<img src="{{edchao.github.io}}/assets/img_framer_cover.jpg" />
+<img src="{{edchao.github.io}}/assets/gif_framer.gif" />
 </figure>
 
 <!--more-->
@@ -115,15 +117,3 @@ Here is a demonstration of how to create a 3d stack of cards that you can swipe 
 It took me awhile to figure this one out, but here's a proto demonstrating how to create a radial progress bar.  The key is that you're actually faking it by masking two rectangles being rotated around in succession within a larger circular mask.  
 
 [Download Source](https://dl.dropboxusercontent.com/u/1916165/edchao_radial_progress.framer.zip)
-
----
-
-## iOS Document Previews
-
-<figure>
-<img src="{{edchao.github.io}}/assets/gif_docpreview.gif" />
-</figure>
-
-One thing I love about mac finder, is the column view. This is because I can quickly see a preview of the document as I tab my way around.  I thought it'd be nice to have a similar experience in iOS.  here's my first attempt using a hideable preview pane that can be pulled down or triggered on a cell's preview button.
-
-[Download Source](https://dl.dropboxusercontent.com/u/1916165/edchao_docPreview.framer.zip)
