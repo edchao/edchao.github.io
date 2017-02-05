@@ -1,5 +1,5 @@
 name: Ed Chao
 description: Home of Ed Chao
 url: http://www.thatedchao.com
-highlighter: pygments
-excerpt_separator: <!--more--> 
+highlighter: rouge
+excerpt_separator: <!--more-->
