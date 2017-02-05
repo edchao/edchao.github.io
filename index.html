@@ -19,14 +19,22 @@ title: Work
 <header class="container hero">
   <div class="hero_wrapper">
     <div class="hero_glyph"></div>
-    <div class="nav-trigger hero_identity"> <strong>Ed Chao</strong> product design</div>
+    <div class="nav-trigger hero_identity">
+      <div class="hero_name">Ed Chao</div>
+      <ul class="hero_contact">
+        <li><a class="contact">Email</a></li>
+        <li><a href="http://dribbble.com/edchao">Dribbble</li>
+        <li><a href="http://dribbble.com/edchao">Twitter</li>
+      </ul>
+    </div>
+
   </div>
 </header>
 
 <div class="container grid">
   {% for post in site.posts %}
     {% if post.categories contains 'published' %}
-      <div class="grid_card_wrapper">
+      <div class="grid_card_wrapper hide_me">
         <div class="grid_card_description">
           <a href="{{ post.url }}">
             <p class="grid_card_headline">{{ post.headline }}</p>

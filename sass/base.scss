@@ -45,9 +45,9 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 20px;
 }
 
-h1 			{ font-size: 22px; line-height: 1.5; }
-h2 			{ font-size: 20px; line-height: 1.5; font-weight: $weight_bold;}
-h3 			{ font-size: 18px; line-height: 1.5; font-weight: $weight_bold; color: rgba(0,20,50,0.5);}
+h1 			{ font-size: 30px; line-height: 1.5; }
+h2 			{ font-size: 24px; line-height: 1.5; font-weight: $weight_bold;}
+h3 			{ font-size: 16px; line-height: 1.5; font-weight: $weight_bold;}
 h4 			{ font-size: 16px; line-height: 1.5; }
 h5 			{ font-size: 16px; line-height: 1.5; font-weight: bold;}
 h6 			{ font-size: 16px; line-height: 1.5; }
@@ -72,5 +72,5 @@ pre {
 
 /* #Links
 ================================================== */
-	a { color: #888; text-decoration: none; outline: 0; }
-	a:hover, a:focus { color: #000; }
+	a { color: $color_link; text-decoration: none; outline: 0; }
+	a:hover, a:focus { color: $color_link; }

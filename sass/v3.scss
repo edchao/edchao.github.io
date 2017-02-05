@@ -131,6 +131,7 @@ header > .title {
 
 
 .hero_wrapper {
+
 }
 
 .hero_glyph {
@@ -142,14 +143,42 @@ header > .title {
   background-size: 100%;
 }
 
-.hero_identity {
-
+.hero_name {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
 }
 
+
+ul.hero_contact {
+  font-size: 12px;
+  padding: 0px;
+  margin: 0px;
+  cursor: pointer;
+
+  a {
+    color: #000;
+  }
+
+  a:hover {
+    color: $color_link;
+  }
+
+  li {
+    display: inline-block;
+    padding: 0px;
+    line-height: 24px;
+    margin-right: 8px;
+  }
+}
 
 /*GRID
 ------------------------------------------*/
 
+.hide_me {
+  opacity: 0;
+}
 
 .grid_card_wrapper {
   float:left;
@@ -157,6 +186,12 @@ header > .title {
   height: auto;
   display: flex;
   margin-bottom: 32px;
+
+  &:hover {
+    .grid_card_headline, .grid_card_co, .grid_card_date{
+      color: $color_link;
+    }
+  }
 
   .grid_card_description {
     width: calc(60% - 16px);
