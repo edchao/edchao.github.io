@@ -24,7 +24,7 @@ Post reasons why you are for or against any issue. Contribute an issue, post a r
 
 ---
 
-<iframe width="800" height="421" src="https://www.youtube.com/embed/XOjMgZH8_4g" frameborder="0" allowfullscreen></iframe>
+<figure><iframe class="video" src="https://www.youtube.com/embed/XOjMgZH8_4g" frameborder="0" allowfullscreen></iframe></figure>
 
 <br>
 
