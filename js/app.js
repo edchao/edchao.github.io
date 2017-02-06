@@ -30,15 +30,26 @@ $(document).ready(function(){
 
 
   $('.contact').on('click', function(){
-    $(".modal_overlay").addClass("show");
     $(".modal_message").html(oink+"@gmail.com")
+    modal_animate();
   });
 
   $(".modal_dismiss").click(function(){
-    $(".modal_message").html("hi bots");
-    $(".modal_overlay").removeClass("show");
+    modal_animate();
   });
 
-
+  function modal_animate(){
+    if ($(".modal_overlay").hasClass('hidden')) {
+      $(".modal_overlay").removeClass('hidden');
+      setTimeout(function () {
+        $(".modal_overlay").removeClass('visually-hidden');
+      }, 20);
+    } else {
+      $(".modal_overlay").addClass('visually-hidden');
+      $(".modal_overlay").one('transitionend', function(e) {
+        $(".modal_overlay").addClass('hidden');
+      });
+    }
+  }
 
 });
