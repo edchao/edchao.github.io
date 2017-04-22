@@ -2,7 +2,7 @@
 layout: article
 title:  "Dropbox Redesign"
 date:   2016-05-30 13:57:09
-headline: "Unifying Dropbox on the web"
+headline: "Redesigning Dropbox on the web"
 co: "Dropbox"
 tags:
 - ui
@@ -28,29 +28,40 @@ The redesign of dropbox.com is about creating a design system for our web experi
 
 <hr>
 
-## What problems does the redesign address?
+## Problems with Dropbox.com
+
+
 
 ### Unwieldy Navigation
+<figure class="figure_small">
+<img src="{{edchao.github.io}}/assets/img_dbx_problems_navigation.png" />
+</figure>
 
 Despite having an amazing set of features and tools they’ve become obscured by our growing list of features, and because there is such a thin connection between them, our customers are not made aware of the tools that are actually within their reach. Customers may have a real need for Dropbox Paper, but because they don’t see it or because it is positioned as a peripheral feature, they won’t think to try it.
 
 ### Tangled Accounts
+<figure class="figure_small">
+<img src="{{edchao.github.io}}/assets/img_dbx_problems_accounts.png" />
+</figure>
 Dropbox is the home for your most personal files and the vault for your most important work. When these spaces merge together, not only is the privacy of home compromised, so is the security of work. Personal photos from that beach trip end up sitting next to your team financials. Neither you nor your team should be happy about that. This is also a problem from a business perspective. Business features that simply don’t exist for personal accounts are forced to show up in a semi-available state within merged views.
 
 ### Fragmented Experiences
+<figure class="figure_small">
+<img src="{{edchao.github.io}}/assets/img_dbx_problems_fragmentation.png" />
+</figure>
 Today users of Dropbox properties have deeply varied experiences. From branding to user flows to page formatting, very little is constant across our products. This creates a feeling of unpredictability and degrades the overall perceived quality of our brand. Customers have to relearn whole sets of new rules for each tool. With each additional tool we create, this problem only gets worse.
 
 
 <hr>
 
-## How does the redesign solve these problems?
+## Solutions in the redesign
 
 ### Navigation that simplifies our products and scales with our company
 <figure class="figure_small">
 <img src="{{edchao.github.io}}/assets/gif_maestro_nav.gif" />
 </figure>
 
-We are introducing a new way to navigate across Dropbox. We are taking our rich offering of features and grouping them into a small set of products (“Home, Files, Photos, Paper”), each with their own application level navigation. This means three things…
+We are introducing a new way to navigate across Dropbox. We are taking our rich offering of features and grouping them into a small set of products (“Home, Files, Paper”), each with their own application level navigation. This means three things…
 
 1. We __reframe__ Dropbox as not just a file storage company with a lot of bells and whistles, but a collaboration company(!) with a focused suite of tools.
 2. We __distill__ the number of choices our users have to make when they arrive at Dropbox.com, which helps users jump into engagement faster by mitigating choice paralysis.
