@@ -1,0 +1,44 @@
+---
+layout: default
+title: Work
+---
+
+<!-- Content
+    ================================================== -->
+
+<div class="modal_overlay hidden visually-hidden">
+  <div class="modal_wrapper">
+    <span class="modal_message">hi bots</span>
+    <span class="modal_note">Please note the second "d" ✌</span>
+    <div class="modal_dismiss">Done</div>
+  </div>
+</div>
+
+<header class="container hero">
+  <div class="hero_wrapper">
+    <div class="hero_glyph"></div>
+    <div class="nav-trigger hero_identity">
+      <div class="hero_name">Ed Chao</div>
+    </div>
+
+  </div>
+</header>
+
+<div class="container grid">
+  {% for post in site.posts %}
+    {% if post.categories contains 'photos' %}
+      <div class="grid_card_wrapper hide_me">
+        <div class="grid_card_description">
+          <a href="{{ post.url }}">
+            <p class="grid_card_headline">{{ post.headline }}</p>
+            <p class="grid_card_co">{{ post.co }}</p>
+            <p class="grid_card_date">{{ post.date | date: "%Y" }}</p>
+          </a>
+        </div>
+        <a class="link_block" href="{{ post.url }}">
+        {{ post.content | split: '<!--more-->' | first }}
+        <a/>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>

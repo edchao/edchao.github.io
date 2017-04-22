@@ -93,7 +93,7 @@ hr {
   border: solid #ddd;
   border-width: 1px 0 0;
   clear: both;
-  margin: 10px 0 30px;
+  margin: 30px 0 30px;
   height: 0; }
 
 code, pre {
@@ -462,9 +462,22 @@ article {
     article h1, article h2, article h3, article h4, article h5, article hr, article ul, article ol {
       margin: 30px 120px 20px 120px; } }
   article hr {
-    margin-top: 60px;
-    margin-bottom: 60px;
     border: 1px solid transparent; }
+    @media only screen and (min-width: 281px) and (max-width: 340px) {
+      article hr {
+        margin: 30px 0 30px 0; } }
+    @media only screen and (min-width: 501px) and (max-width: 960px) {
+      article hr {
+        margin: 30px 0 30px 0; } }
+    @media only screen and (min-width: 961px) and (max-width: 1020px) {
+      article hr {
+        margin: 60px 0 60px 0; } }
+    @media only screen and (min-width: 1021px) and (max-width: 1020px) {
+      article hr {
+        margin: 60px 0 60px 0; } }
+    @media only screen and (min-width: 1021px) {
+      article hr {
+        margin: 60px 0 60px 0; } }
   article h4, article h5 {
     margin-top: 60px; }
   article ol {
@@ -496,5 +509,50 @@ figure {
 @media only screen and (min-width: 1021px) {
   .figure_small {
     margin: 0 120px 20px 120px; } }
+
+.figure_photo {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+  @media only screen and (min-width: 281px) and (max-width: 340px) {
+    .figure_photo {
+      margin: 0 0 60px 0; } }
+  @media only screen and (min-width: 501px) and (max-width: 960px) {
+    .figure_photo {
+      margin: 0 0 60px 0; } }
+  @media only screen and (min-width: 961px) and (max-width: 1020px) {
+    .figure_photo {
+      margin: 0 0 60px 0; } }
+  @media only screen and (min-width: 1021px) and (max-width: 1020px) {
+    .figure_photo {
+      margin: 0 0 120px 0; } }
+  @media only screen and (min-width: 1021px) {
+    .figure_photo {
+      margin: 0 0 120px 0; } }
+
+.figure_photo_half {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+  @media only screen and (min-width: 281px) and (max-width: 340px) {
+    .figure_photo_half {
+      margin: 0 0 60px 0; } }
+  @media only screen and (min-width: 501px) and (max-width: 960px) {
+    .figure_photo_half {
+      margin: 0 0 60px 0; } }
+  @media only screen and (min-width: 961px) and (max-width: 1020px) {
+    .figure_photo_half {
+      margin: 0 0 60px 0; } }
+  @media only screen and (min-width: 1021px) and (max-width: 1020px) {
+    .figure_photo_half {
+      margin: 0 0 120px 0; } }
+  @media only screen and (min-width: 1021px) {
+    .figure_photo_half {
+      margin: 0 0 120px 0; } }
+  .figure_photo_half img {
+    display: inline-block;
+    width: calc(50% - 5px);
+    margin-right: 10px;
+    height: auto; }
 
 /*# sourceMappingURL=main.css.map */
