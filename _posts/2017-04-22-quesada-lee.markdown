@@ -13,7 +13,7 @@ categories:
 ---
 
 <figure class="figure_photo">
-<img src="{{edchao.github.io}}/photos/DSC00716.jpg" />
+<img src="https://s3.amazonaws.com/thatedchao-cdn/photos/DSC00716.jpg" />
 </figure>
 
 <!--more-->
@@ -24,28 +24,28 @@ We haven't met up with the Quesadas or the Lees in ages. On this cloudy but sunn
 
 
 <figure class="figure_photo_half">
-<img src="{{edchao.github.io}}/photos/DSC00705.jpg" />
-<img src="{{edchao.github.io}}/photos/DSC00713.jpg" />
+<img src="https://s3.amazonaws.com/thatedchao-cdn/photos/DSC00705.jpg" />
+<img src="https://s3.amazonaws.com/thatedchao-cdn/photos/DSC00713.jpg" />
 </figure>
 
 
 
 <figure class="figure_photo">
-<img src="{{edchao.github.io}}/photos/DSC00731.jpg" />
+<img src="https://s3.amazonaws.com/thatedchao-cdn/photos/DSC00731.jpg" />
 </figure>
 
 
 
 <figure class="figure_photo_half">
-<img src="{{edchao.github.io}}/photos/DSC00741.jpg" />
-<img src="{{edchao.github.io}}/photos/DSC00738.jpg" />
+<img src="https://s3.amazonaws.com/thatedchao-cdn/photos/DSC00738.jpg" />
+<img src="https://s3.amazonaws.com/thatedchao-cdn/photos/DSC00741.jpg" />
 </figure>
 
 <figure class="figure_photo">
-<img src="{{edchao.github.io}}/photos/DSC00760.jpg" />
+<img src="https://s3.amazonaws.com/thatedchao-cdn/photos/DSC00760.jpg" />
 </figure>
 
 
 <figure class="figure_photo">
-<img src="{{edchao.github.io}}/photos/DSC00763.jpg" />
+<img src="https://s3.amazonaws.com/thatedchao-cdn/photos/DSC00763.jpg" />
 </figure>
