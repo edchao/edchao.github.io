@@ -12,7 +12,7 @@ categories:
 ---
 
 <figure>
-<img src="{{edchao.github.io}}/assets/img_guidebook_cover.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_guidebook_cover.jpg" />
 </figure>
 
 
@@ -34,12 +34,12 @@ According to our metrics, we observed that the most popular way for people to fi
 ---
 
 <figure>
-<img src="{{edchao.github.io}}/assets/img_discover_onboard.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_discover_onboard.jpg" />
 </figure>
 
 
 <figure>
-<img src="{{edchao.github.io}}/assets/img_discover_videos.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_discover_videos.jpg" />
 </figure>
 
 ---
@@ -49,7 +49,7 @@ According to our metrics, we observed that the most popular way for people to fi
 Initially our app distinguished between downloaded and non-downloaded guides.  This was presented as a "My Guides" section, and a "Guidebook Library" section. However this in and of itself was not a helpful distinction.  In fact it created unnecessary overhead in explaining to users how the guidebook app worked.
 
 <figure>
-<img src="{{edchao.github.io}}/assets/img_discover_original.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_discover_original.jpg" />
 </figure>
 
 We had originally put this schema in place because technically, guides were downloaded before they could be viewed.  But in doing so, we separated the "Guidebook library of guides" from "Your Guides" and out of those two screens, we could only emphasize one.  By emphasizing Your Guides we obscured the Guidebook Library, and vice versa.
@@ -57,7 +57,7 @@ We had originally put this schema in place because technically, guides were down
 By getting rid of the "downloaded guide" distinction, we were able to combine the two concepts into one screen.  Users didn't care about the distinction so why force it on them?  Now, instead of two places where guides could reside, we had just one.  
 
 <figure>
-<img src="{{edchao.github.io}}/assets/img_discover_final.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_discover_final.jpg" />
 </figure>
 
 ---

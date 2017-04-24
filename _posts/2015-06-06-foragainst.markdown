@@ -12,7 +12,7 @@ categories:
 ---
 
 <figure>
-<img src="{{edchao.github.io}}/assets/img_foragainst_home.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_foragainst_home.jpg" />
 </figure>
 
 <!--more-->

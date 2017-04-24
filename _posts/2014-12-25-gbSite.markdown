@@ -9,7 +9,7 @@ categories:
 ---
 
 <figure>
-<img src="{{edchao.github.io}}/assets/img_guidebook_site.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_guidebook_site.jpg" />
 </figure>
 
 <!--more-->

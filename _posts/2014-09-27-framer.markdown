@@ -13,7 +13,7 @@ categories:
 ---
 
 <figure>
-<img src="{{edchao.github.io}}/assets/gif_framer.gif" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/gif_framer.gif" />
 </figure>
 
 <!--more-->
@@ -25,7 +25,7 @@ categories:
 ## Card swiping
 
 <figure>
-<img src="{{edchao.github.io}}/assets/gif_cardfeed.gif" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/gif_cardfeed.gif" />
 </figure>
 
 The idea behind card swiping is to change contexts for a card-based UI with a swipe.  This is a pretty barebones UI concept but it shows an app that helps you organize your friends and connections based on city.  Swiping up and down changes your city, and therefore changes your friends listed.
@@ -37,7 +37,7 @@ The idea behind card swiping is to change contexts for a card-based UI with a sw
 ## Animation Chains with States
 
 <figure>
-<img src="{{edchao.github.io}}/assets/gif_chathead.gif" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/gif_chathead.gif" />
 </figure>
 
 On the framerJS website there is an example on chaining animations using the "end" event of a previous animation.  I wondered if you could instead use states and delays to create more complex animations while maintaining a bit more cleanliness in the code.  I deleted the project awhile ago, so here instead is a code snippet to show how it works.
@@ -62,7 +62,7 @@ On the framerJS website there is an example on chaining animations using the "en
 ## Tap hold with Hammer JS
 
 <figure>
-<img src="{{edchao.github.io}}/assets/gif_beacon.gif" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/gif_beacon.gif" />
 </figure>
 
 Hammer JS is a library that allows you to utilize numerous other tap events, the most notable for me being tap and hold.  Koen Bok put together a code chunk that lets it work together with Framer.  This is a prototype I put together for my project Beacon that demonstrates what it can do.
@@ -74,7 +74,7 @@ Hammer JS is a library that allows you to utilize numerous other tap events, the
 ## Drill Down Tables
 
 <figure>
-<img src="{{edchao.github.io}}/assets/gif_multiview.gif" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/gif_multiview.gif" />
 </figure>
 
 A common request for people building prototypes is to create table views that can push/drill down to other table views.  This prototype creates the table views based on an array of objects, similar to a simple model.
@@ -86,7 +86,7 @@ A common request for people building prototypes is to create table views that ca
 ## Page Control
 
 <figure>
-<img src="{{edchao.github.io}}/assets/gif_cardtable.gif" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/gif_cardtable.gif" />
 </figure>
 
 Another common iOS design paradigm is the page control / cover flow dots.  This is a prototype that tracks what page you are currently viewing.  With that information you can do all sorts of cool stuff, but I'll leave it to you.
@@ -99,7 +99,7 @@ Another common iOS design paradigm is the page control / cover flow dots.  This 
 ## Card Stack
 
 <figure>
-<img src="{{edchao.github.io}}/assets/gif_cardstack.gif" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/gif_cardstack.gif" />
 </figure>
 
 Here is a demonstration of how to create a 3d stack of cards that you can swipe to navigate.  The concept is essentially just positioning an array of cards along a z-axis based on its index.  Swiping records the index you are currently on and changes the position of all the array items accordingly.
@@ -111,7 +111,7 @@ Here is a demonstration of how to create a 3d stack of cards that you can swipe 
 ## Radial Progress
 
 <figure>
-<img src="{{edchao.github.io}}/assets/gif_radial.gif" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/gif_radial.gif" />
 </figure>
 
 It took me awhile to figure this one out, but here's a proto demonstrating how to create a radial progress bar.  The key is that you're actually faking it by masking two rectangles being rotated around in succession within a larger circular mask.  

@@ -13,7 +13,7 @@ categories:
 ---
 
 <figure>
-<img src="{{edchao.github.io}}/assets/img_champs_cover.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_champs_cover.jpg" />
 </figure>
 
 <!--more-->
@@ -32,11 +32,11 @@ The rules of the game are as follows.  You command a squad of 6 characters.  Eac
 
 
 <figure>
-<img src="{{edchao.github.io}}/assets/img_champs.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_champs.jpg" />
 </figure>
 
 <figure>
-<img src="{{edchao.github.io}}/assets/img_champs_killcount.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_champs_killcount.jpg" />
 </figure>
 
 
@@ -47,7 +47,7 @@ Early in development we didn't have the visualization of souls being swept up in
 ## Ability HUD
 
 <figure>
-<img src="{{edchao.github.io}}/assets/img_hud_change.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_hud_change.jpg" />
 </figure>
 
 Originally we wanted a circle hud to access and execute abilities (Above) because it allowed a user to easily identify which character the hud belonged to.  However after numerous user tests, I settled on creating a more intuitive version which exists as a magnified representation of the character's energy bar.  
@@ -57,7 +57,7 @@ Originally we wanted a circle hud to access and execute abilities (Above) becaus
 ## UI Overview
 
 <figure>
-<img src="{{edchao.github.io}}/assets/img_champs_ui.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_champs_ui.jpg" />
 </figure>
 
 ---
@@ -65,9 +65,9 @@ Originally we wanted a circle hud to access and execute abilities (Above) becaus
 ## Additional Art
 
 <figure>
-<img src="{{edchao.github.io}}/assets/img_champs_badges.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_champs_badges.jpg" />
 </figure>
 
 <figure>
-<img src="{{edchao.github.io}}/assets/img_champs_tourn.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_champs_tourn.jpg" />
 </figure>

@@ -4,6 +4,10 @@ $(document).ready(function(){
 
   gridAnimate();
 
+  $("img.lazy").lazyload({
+    effect: "fadeIn"
+  });
+
   /* Every time the window is scrolled ... */
   $(window).scroll( function(){
 

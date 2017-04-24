@@ -10,7 +10,7 @@ categories:
 ---
 
 <figure>
-<img src="{{edchao.github.io}}/assets/img_gbExplore.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_gbExplore.jpg" />
 </figure>
 
 <!--more-->
