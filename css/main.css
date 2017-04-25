@@ -256,6 +256,10 @@ ul.hero_contact {
 .hide_me {
   opacity: 0; }
 
+.lazy {
+  background-color: #fff;
+  height: inherit; }
+
 .grid_card_wrapper {
   float: left;
   width: 100%;
