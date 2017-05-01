@@ -175,8 +175,12 @@ ul.hero_contact {
     .grid_card_headline, .grid_card_co, .grid_card_date{
       color: $color_link;
     }
+    figure {
+      // transform: scale(0.96, 0.96)
+    }
+
     img {
-      transform: scale(1.05,1.05);
+      transform: scale(1.04,1.04);
     }
   }
 
@@ -280,6 +284,7 @@ ul.hero_contact {
 
   figure {
     height: auto;
+    transition: all 0.25s ease-in-out;
   }
 
   img{
@@ -471,6 +476,7 @@ article {
 figure {
   margin-bottom: 30px;
   overflow: hidden;
+
   img {
     transition: all 0.25s ease-in-out;
     position: relative;

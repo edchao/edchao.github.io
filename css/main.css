@@ -269,7 +269,7 @@ ul.hero_contact {
   .grid_card_wrapper:hover .grid_card_headline, .grid_card_wrapper:hover .grid_card_co, .grid_card_wrapper:hover .grid_card_date {
     color: #772BFF; }
   .grid_card_wrapper:hover img {
-    transform: scale(1.05, 1.05); }
+    transform: scale(1.04, 1.04); }
   .grid_card_wrapper .grid_card_description {
     width: calc(60% - 16px); }
     @media only screen and (min-width: 281px) and (max-width: 340px) {
@@ -352,7 +352,8 @@ ul.hero_contact {
       .grid_card_wrapper .grid_card_date {
         font-size: 10px; } }
   .grid_card_wrapper figure {
-    height: auto; }
+    height: auto;
+    transition: all 0.25s ease-in-out; }
   .grid_card_wrapper img {
     float: center;
     height: auto;

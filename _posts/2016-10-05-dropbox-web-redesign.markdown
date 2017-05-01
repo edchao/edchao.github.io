@@ -8,7 +8,7 @@ tags:
 - ui
 - interaction
 categories:
--
+- 
 ---
 
 
@@ -98,6 +98,7 @@ We are providing an extensive set of visual and interaction patterns that make t
 
 ## Conclusion
 
-On February 4th 2007, we launched this redesign to a small set of early access customers and have since started rolling it out to everyone. Ordinarily, a redesign of this scale would garner a significant amount of user lash-back and resistance to change. But there has been a remarkably small number of complaints. Most users have just picked up the new design with virtually no transitional friction. You could say, it just works.
+On February 4th 2007, we launched this redesign to a small set of early access customers. After demonstrating that it didn't negatively impact key metrics (but rather boosted them) we decided to roll the redesign out to everyone at the end of March. Around the same time we also started a new Design Systems team to extend and evolve the work going forward. Altogether the project has set a new foundation for Dropbox design and I'm excited to see where the team as a whole takes it from here.
+
 
 ### See for yourself. <a href="https://dropbox.com">Dropbox.com</a>.
