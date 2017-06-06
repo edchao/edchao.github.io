@@ -8,7 +8,7 @@ tags:
 - ui
 - interaction
 categories:
-- 
+- published
 ---
 
 
@@ -37,7 +37,7 @@ The redesign of dropbox.com is about creating a design system for our web experi
 <img class="lazy" data-original="{{edchao.github.io}}/assets/img_dbx_problems_navigation.png" />
 </figure>
 
-Despite having an amazing set of features and tools they’ve become obscured by our growing list of features, and because there is such a thin connection between them, our customers are not made aware of the tools that are actually within their reach. Customers may have a real need for Dropbox Paper, but because they don’t see it or because it is positioned as a peripheral feature, they won’t think to try it.
+Despite having an amazing set of features and tools, they’ve become obscured by our growing list of features. And because there is such a thin connection between them, our customers are not made aware of the tools that are actually within their reach. Customers may have a real need for Dropbox Paper but because they don’t see it or because it is positioned as a peripheral feature, they won’t think to try it.
 
 ### Tangled Accounts
 <figure class="figure_small">
@@ -63,7 +63,7 @@ Today users of Dropbox properties have deeply varied experiences. From branding 
 
 We are introducing a new way to navigate across Dropbox. We are taking our rich offering of features and grouping them into a small set of products (“Home, Files, Paper”), each with their own application level navigation. This means three things…
 
-1. We __reframe__ Dropbox as not just a file storage company with a lot of bells and whistles, but a collaboration company(!) with a focused suite of tools.
+1. We __reframe__ Dropbox as not just a file storage company with a lot of bells and whistles, but a collaboration company with a focused suite of tools.
 2. We __distill__ the number of choices our users have to make when they arrive at Dropbox.com, which helps users jump into engagement faster by mitigating choice paralysis.
 3. We __designate__ a place in our navigation for products to live that offers space for the product to grow without bloating our front page.
 
@@ -74,7 +74,7 @@ We are introducing a new way to navigate across Dropbox. We are taking our rich 
 ### Separation between work and personal accounts
 
 <figure class="figure_small">
-<img class="lazy" data-original="{{edchao.github.io}}/assets/gif_maestro_switcher.gif" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/gif_maestro_switcher_2.gif" />
 </figure>
 
 We are separating personal and work completely by giving each their own spaces with access to their own set of tools. This separation doesn’t mean its a chore to jump between the two accounts. A simple toggle allows users to quickly go back and forth between personal and work, to their hearts content.
