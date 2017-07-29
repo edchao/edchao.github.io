@@ -113,19 +113,19 @@ Many go to Paris for the French culinary experience. Shau-Ru and I however, foun
 <img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01599.jpg" />
 </figure>
 
-<figure class="figure_photo">
+<figure class="figure_photo_half">
 <img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01603.jpg" />
 </figure>
 
-<figure class="figure_photo">
+<figure class="figure_photo_half">
 <img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01608.jpg" />
 </figure>
 
-<figure class="figure_photo">
+<figure class="figure_photo_half">
 <img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01618.jpg" />
 </figure>
 
-<figure class="figure_photo">
+<figure class="figure_photo_half">
 <img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01620.jpg" />
 </figure>
 
