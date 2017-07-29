@@ -70,7 +70,7 @@ Many go to Paris for the French culinary experience. Shau-Ru and I however, foun
 </figure>
 
 <figure class="figure_photo">
-<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC014395jpg" />
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01495jpg" />
 </figure>
 
 <figure class="figure_photo">
