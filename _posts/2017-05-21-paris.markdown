@@ -1,0 +1,226 @@
+---
+layout: article
+title:  "Yosemite"
+date:   2017-05-21 19:20:09
+headline: "Paris in the spring"
+co: "Vacations"
+tags:
+categories:
+- photos
+
+
+---
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01773.jpg" />
+</figure>
+
+<!--more-->
+
+Many go to Paris for the French culinary experience. Shau-Ru and I however, found Paris' food scene to be much more international. We had killer ramen and incredible pita sandwiches.
+<hr>
+
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01339.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01406.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01408.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01429.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01434.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01439.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01442.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01450.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01457.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01469.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01486.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01490.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC014395jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01507.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01521.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01544.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01554.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01569.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01571.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01580.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01592.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01598.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01599.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01603.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01608.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01618.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01620.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01623.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01648.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01677.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01684.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01686.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01689.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01691.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01692.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01706.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01725.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01727.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01738.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01761.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01765.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01766.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01771.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01773.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01786.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01794.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01795.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01800.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01811.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01853.jpg" />
+</figure>
+
+<figure class="figure_photo">
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01889.jpg" />
+</figure>
