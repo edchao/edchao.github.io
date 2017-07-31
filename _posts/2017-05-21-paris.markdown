@@ -57,7 +57,7 @@ We traveled to Paris in late May of 2017 on the way to Africa. We took it easy, 
 <img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01486.jpg" />
 </figure>
 
-Paris was far more international in its cuisines than we had expected. The Israeli pita sandwiches at Miznon were so good we at there twice.
+Paris was far more international in its cuisines than we had expected. The Israeli pita sandwiches at Miznon were so good we ate there twice.
 
 <hr>
 
@@ -119,7 +119,7 @@ It just so happened that while we were there, the annual bread festival was bein
 <img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01608.jpg" />
 </figure>
 
-We happened upon this little ramen house that turned out to be very good. Called the best ramen in Europe on some food blogs, Kotteri Ramen Naritake specialized in thick broths that were so rich that it was common practice to order plain broth to water it down.
+We happened upon this little ramen house that turned out to be very good. Called the best ramen in Europe on some food blogs, Kotteri Ramen Naritake specializes in thick broths that are so rich that it is common practice to order plain broth to water it down.
 
 <hr>
 
@@ -199,9 +199,6 @@ We climbed up the Arc de Triomphe to catch these breathtaking views. We just mis
 <img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01786.jpg" />
 </figure>
 
-<figure class="figure_photo">
-<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01794.jpg" />
-</figure>
 
 <figure class="figure_photo">
 <img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01795.jpg" />
