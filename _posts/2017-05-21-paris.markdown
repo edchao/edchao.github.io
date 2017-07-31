@@ -17,7 +17,8 @@ categories:
 
 <!--more-->
 
-Many go to Paris for the French culinary experience. Shau-Ru and I however, found Paris' food scene to be much more international. We had killer ramen and incredible pita sandwiches.
+We traveled to Paris in late May of 2017 on the way to Africa. We took it easy, going on slow walks, exploring local bites, and waking up late.
+
 <hr>
 
 
@@ -25,11 +26,8 @@ Many go to Paris for the French culinary experience. Shau-Ru and I however, foun
 <img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01339.jpg" />
 </figure>
 
-<figure class="figure_photo">
+<figure class="figure_photo_half">
 <img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01406.jpg" />
-</figure>
-
-<figure class="figure_photo">
 <img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01408.jpg" />
 </figure>
 
@@ -45,11 +43,8 @@ Many go to Paris for the French culinary experience. Shau-Ru and I however, foun
 <img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01439.jpg" />
 </figure>
 
-<figure class="figure_photo">
+<figure class="figure_photo_half">
 <img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01442.jpg" />
-</figure>
-
-<figure class="figure_photo">
 <img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01450.jpg" />
 </figure>
 
@@ -57,20 +52,21 @@ Many go to Paris for the French culinary experience. Shau-Ru and I however, foun
 <img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01457.jpg" />
 </figure>
 
-<figure class="figure_photo">
+<figure class="figure_photo_half">
 <img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01469.jpg" />
-</figure>
-
-<figure class="figure_photo">
 <img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01486.jpg" />
 </figure>
+
+Paris was far more international in its cuisines than we had expected. The Israeli pita sandwiches at Miznon were so good we at there twice.
+
+<hr>
 
 <figure class="figure_photo">
 <img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01490.jpg" />
 </figure>
 
 <figure class="figure_photo">
-<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01495jpg" />
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01495.jpg" />
 </figure>
 
 <figure class="figure_photo">
@@ -97,6 +93,10 @@ Many go to Paris for the French culinary experience. Shau-Ru and I however, foun
 <img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01571.jpg" />
 </figure>
 
+It just so happened that while we were there, the annual bread festival was being held in front of Notre Dame. I bought a baguette.
+
+<hr>
+
 <figure class="figure_photo">
 <img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01580.jpg" />
 </figure>
@@ -113,10 +113,15 @@ Many go to Paris for the French culinary experience. Shau-Ru and I however, foun
 <img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01599.jpg" />
 </figure>
 
+
 <figure class="figure_photo_half">
 <img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01603.jpg" />
 <img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01608.jpg" />
 </figure>
+
+We happened upon this little ramen house that turned out to be very good. Called the best ramen in Europe on some food blogs, Kotteri Ramen Naritake specialized in thick broths that were so rich that it was common practice to order plain broth to water it down.
+
+<hr>
 
 <figure class="figure_photo_half">
 <img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01618.jpg" />
@@ -127,11 +132,8 @@ Many go to Paris for the French culinary experience. Shau-Ru and I however, foun
 <img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01623.jpg" />
 </figure>
 
-<figure class="figure_photo">
+<figure class="figure_photo_half">
 <img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01648.jpg" />
-</figure>
-
-<figure class="figure_photo">
 <img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01677.jpg" />
 </figure>
 
@@ -143,11 +145,8 @@ Many go to Paris for the French culinary experience. Shau-Ru and I however, foun
 <img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01686.jpg" />
 </figure>
 
-<figure class="figure_photo">
+<figure class="figure_photo_half">
 <img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01689.jpg" />
-</figure>
-
-<figure class="figure_photo">
 <img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01691.jpg" />
 </figure>
 
@@ -175,8 +174,9 @@ Many go to Paris for the French culinary experience. Shau-Ru and I however, foun
 <img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01761.jpg" />
 </figure>
 
-<figure class="figure_photo">
+<figure class="figure_photo_half">
 <img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01765.jpg" />
+<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01800.jpg" />
 </figure>
 
 <figure class="figure_photo">
@@ -186,6 +186,10 @@ Many go to Paris for the French culinary experience. Shau-Ru and I however, foun
 <figure class="figure_photo">
 <img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01771.jpg" />
 </figure>
+
+We climbed up the Arc de Triomphe to catch these breathtaking views. We just missed the lights on the Eiffel though.  
+
+<hr>
 
 <figure class="figure_photo">
 <img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01773.jpg" />
@@ -203,17 +207,16 @@ Many go to Paris for the French culinary experience. Shau-Ru and I however, foun
 <img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01795.jpg" />
 </figure>
 
-<figure class="figure_photo">
-<img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01800.jpg" />
-</figure>
 
-<figure class="figure_photo">
+
+<figure class="figure_photo_half">
 <img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01811.jpg" />
-</figure>
-
-<figure class="figure_photo">
 <img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01853.jpg" />
 </figure>
+
+Our last stop was the Panthéon, where historic figures like Victor Hugo and Jean-Jacques Rousseau were buried.
+
+<hr>
 
 <figure class="figure_photo">
 <img class="lazy" data-original="https://s3.amazonaws.com/thatedchao-cdn/photos/2017.05.21.paris/DSC01889.jpg" />
