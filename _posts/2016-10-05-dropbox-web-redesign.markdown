@@ -98,7 +98,7 @@ We are providing an extensive set of visual and interaction patterns that make t
 
 ## Conclusion
 
-On February 4th 2007, we launched this redesign to a small set of early access customers. After demonstrating that it didn't negatively impact key metrics (but rather boosted them) we decided to roll the redesign out to everyone at the end of March. Around the same time we also started a new Design Systems team to extend and evolve the work going forward. Altogether the project has set a new foundation for Dropbox design and I'm excited to see where the team as a whole takes it from here.
+On February 4th 2017, we launched this redesign to a small set of early access customers. After demonstrating that it didn't negatively impact key metrics (but rather boosted them) we decided to roll the redesign out to everyone at the end of March. Around the same time we also started a new Design Systems team to extend and evolve the work going forward. Altogether the project has set a new foundation for Dropbox design and I'm excited to see where the team as a whole takes it from here.
 
 
 ### See for yourself. <a href="https://dropbox.com">Dropbox.com</a>.
