@@ -26,11 +26,14 @@
 		height:100%;
 	}
 
+
+
 /* #Basic Styles
 ================================================== */
 	body {
 		background: #fff;
-		font: 16px/1.6 "Roboto", Helvetica, Arial, sans-serif;
+		font-family: $font_system;
+		font-size: 16px;
 		color: $color_text;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
@@ -46,8 +49,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 			{ font-size: 30px; line-height: 1.5; }
-h2 			{ font-size: 24px; line-height: 1.5; font-weight: $weight_bold;}
-h3 			{ font-size: 18px; line-height: 1.5; font-weight: $weight_bold;}
+h2 			{ font-size: 24px; line-height: 1.5; font-weight: $weight_bold; letter-spacing: $tracking_headline;}
+h3 			{ font-size: 18px; line-height: 1.5; font-weight: $weight_bold; letter-spacing: $tracking_subhead;}
 h4 			{ font-size: 16px; line-height: 1.5; }
 h5 			{ font-size: 16px; line-height: 1.5; font-weight: bold;}
 h6 			{ font-size: 16px; line-height: 1.5; }

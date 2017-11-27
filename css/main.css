@@ -38,8 +38,9 @@ html, body {
 ================================================== */
 body {
   background: #fff;
-  font: 16px/1.6 "Roboto", Helvetica, Arial, sans-serif;
-  color: #000;
+  font-family: --apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  color: #333;
   -webkit-font-smoothing: antialiased;
   /* Fix for webkit rendering */
   -webkit-text-size-adjust: 100%; }
@@ -47,7 +48,7 @@ body {
 /* #Typography
 ================================================== */
 h1, h2, h3, h4, h5, h6 {
-  color: #000;
+  color: #333;
   font-weight: 400;
   margin-bottom: 20px; }
 
@@ -58,12 +59,14 @@ h1 {
 h2 {
   font-size: 24px;
   line-height: 1.5;
-  font-weight: 500; }
+  font-weight: 700;
+  letter-spacing: 0px; }
 
 h3 {
   font-size: 18px;
   line-height: 1.5;
-  font-weight: 500; }
+  font-weight: 700;
+  letter-spacing: -0.6px; }
 
 h4 {
   font-size: 16px;
@@ -87,7 +90,7 @@ em {
   font-style: italic; }
 
 strong {
-  font-weight: 500; }
+  font-weight: 700; }
 
 hr {
   border: solid #ddd;
@@ -158,7 +161,6 @@ nav {
   nav .nav_contact {
     display: block;
     position: absolute;
-    font-family: 'Helvetica Neue' sans-serif;
     letter-spacing: 1px;
     width: 25px;
     height: 25px;
@@ -218,7 +220,8 @@ header > .title {
   background-repeat: no-repeat;
   background-size: 100%;
   font-size: 30px;
-  font-weight: 500; }
+  font-weight: 700;
+  letter-spacing: 0px; }
 
 /* HERO
 ------------------------------------------*/
@@ -232,9 +235,8 @@ header > .title {
 
 .hero_name {
   font-size: 12px;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif; }
+  font-weight: 800;
+  text-transform: uppercase; }
 
 ul.hero_contact {
   font-size: 12px;
@@ -242,7 +244,7 @@ ul.hero_contact {
   margin: 0px;
   cursor: pointer; }
   ul.hero_contact a {
-    color: #000; }
+    color: #333; }
   ul.hero_contact a:hover {
     color: #772BFF; }
   ul.hero_contact li {
@@ -293,8 +295,9 @@ ul.hero_contact {
   .grid_card_wrapper .grid_card_headline {
     font-size: 30px;
     line-height: 1.5em;
-    font-weight: 500;
-    color: #000;
+    font-weight: 700;
+    color: #333;
+    letter-spacing: 0px;
     margin-bottom: 16px; }
     @media only screen and (min-width: 281px) and (max-width: 340px) {
       .grid_card_wrapper .grid_card_headline {
@@ -307,12 +310,11 @@ ul.hero_contact {
         font-size: 24px; } }
   .grid_card_wrapper .grid_card_co {
     font-size: 12px;
-    color: #000;
+    color: #333;
     margin-bottom: 0px;
     text-transform: uppercase;
     line-height: 16px;
-    font-weight: 700;
-    font-family: 'Montserrat', sans-serif; }
+    font-weight: 800; }
     .grid_card_wrapper .grid_card_co:before {
       content: "";
       margin-bottom: 16px;
@@ -343,7 +345,7 @@ ul.hero_contact {
         line-height: 10px; } }
   .grid_card_wrapper .grid_card_date {
     font-size: 12px;
-    color: #000;
+    color: #333;
     margin-bottom: 0px; }
     @media only screen and (min-width: 281px) and (max-width: 340px) {
       .grid_card_wrapper .grid_card_date {
@@ -418,7 +420,7 @@ ul.hero_contact {
   text-align: center;
   font-size: 24px;
   margin-bottom: 8px;
-  font-weight: 500; }
+  font-weight: 700; }
 
 .modal_note {
   display: block;
@@ -493,6 +495,28 @@ article {
     margin-bottom: 10px;
     padding-left: 10px;
     margin-left: -10px; }
+
+blockquote {
+  color: #696969;
+  font-style: italic; }
+  blockquote p {
+    padding-left: 20px;
+    border-left: 1px solid #696969; }
+    @media only screen and (min-width: 281px) and (max-width: 340px) {
+      blockquote p {
+        margin: 0 0 20px -20px; } }
+    @media only screen and (min-width: 501px) and (max-width: 960px) {
+      blockquote p {
+        margin: 0 0 20px -20px; } }
+    @media only screen and (min-width: 961px) and (max-width: 1020px) {
+      blockquote p {
+        margin: 0 0 20px -20px; } }
+    @media only screen and (min-width: 1021px) and (max-width: 1020px) {
+      blockquote p {
+        margin: 0 100px 20px 100px; } }
+    @media only screen and (min-width: 1021px) {
+      blockquote p {
+        margin: 0 100px 20px 100px; } }
 
 figure {
   margin-bottom: 30px;
