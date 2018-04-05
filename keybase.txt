@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/edchao
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://thatedchao.com
+  * I am edchao (https://keybase.io/edchao) on keybase.
+  * I have a public key ASC7vzNzZfc0nEfoTDA70Uz9YNNyTxH00y48DCFbypI_PAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01203ea09c14e801f83ed2b8959c2f0d4bd0c93d57c852c777fcbb933b56752535480a",
+      "host": "keybase.io",
+      "kid": "0120bbbf337365f7349c47e84c303bd14cfd60d3724f11f4d32e3c0c215bca923f3c0a",
+      "uid": "dfa40c1ad3ead9a57548a28a2172d719",
+      "username": "edchao"
+    },
+    "merkle_root": {
+      "ctime": 1522972222,
+      "hash": "aef8e1c11b749da3abc5b4463f2389f86a1dd49dcf2ff043e9c27bef2fc1dce70eb15d3174e1281c9b51d5c27999be0f9bb655be3ea05ece3c0f4ab48695361e",
+      "hash_meta": "8bf3b3770c1ed030ce97cbc758de195274e3b0397606637004bbed98aa3a3a9e",
+      "seqno": 2344174
+    },
+    "service": {
+      "entropy": "kdYE6QjRHuAJjKDTps0Ovp+Q",
+      "hostname": "thatedchao.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.47"
+  },
+  "ctime": 1522972229,
+  "expire_in": 504576000,
+  "prev": "44edb69e7845afd659db635cfe2005cc6333c7fdd30cc9d16354bc25c48bf980",
+  "seqno": 17,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgu78zc2X3NJxH6EwwO9FM/WDTck8R9NMuPAwhW8qSPzwKp3BheWxvYWTESpcCEcQgRO22nnhFr9ZZ22Nc/iAFzGMzx/3TDMnRY1S8JcSL+YDEIA5TvunpOkiRWTFRqEe7eqzdEwQTm04x8523ALIhJ0fqAgHCo3NpZ8RA6hyyyCWUWYJV7cubwOT/echb8bAj2SRbISStJIODpgsDqW+epv6Yc39KFF+hEmXguJBmC/8S5u7uFNs9cOIlDKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEINUzuSlvgyE5GgkYSXt8qpAZP8V9xMMdQSDxCTgb0mWoo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/edchao
+
+==================================================================
