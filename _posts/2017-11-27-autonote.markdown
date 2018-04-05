@@ -1,0 +1,45 @@
+---
+layout: article
+title:  "Autonote"
+date:   2017-11-27 13:57:09
+headline: "An iOS app for your car records"
+co: "Personal"
+tags:
+- ui
+- interaction
+categories:
+---
+
+<figure>
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_autonote_cover.jpg" />
+</figure>
+
+
+<!--more-->
+
+
+
+## <strong>Autonote</strong> is an iOS app for keeping car records.
+
+
+### Know your car
+When's the last time you changed your oil? Rotated your tires? With Autonote, you can keep track of everything that happens with your car. Now if something goes wrong or needs fixing you'll have your car's full history at your fingertips.
+
+### All your cars in one place
+Got more than one car? No problem. Keep all your records separated by car.
+
+### See what other people are doing
+Uncertain if your doing things right with your car? Browse other cars to see what other people are doing with theirs.
+
+<hr>
+
+<figure>
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_autonote_figure.jpg" />
+</figure>
+
+<hr>
+
+### Try it out
+Working out a few more features but give me a tweet and I'll add you to the testflight :)
+
+<hr>
