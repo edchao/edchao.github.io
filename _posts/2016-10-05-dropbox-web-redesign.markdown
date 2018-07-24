@@ -1,8 +1,8 @@
 ---
 layout: article
-title:  "Dropbox Redesign"
+title:  "Dropbox Web Redesign"
 date:   2016-05-30 13:57:09
-headline: "Redesigning Dropbox on the web"
+headline: "Redesigning Dropbox for the web"
 co: "Dropbox"
 tags:
 - ui

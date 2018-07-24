@@ -152,7 +152,7 @@ nav {
   width: 100%;
   z-index: 99999;
   height: 60px;
-  border-bottom: 1px solid transparent;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
   -webkit-transition: all .2s;
   transition: all .2s;
   overflow: hidden; }
@@ -471,7 +471,7 @@ article {
     article h1, article h2, article h3, article h4, article h5, article hr, article ul, article ol {
       margin: 30px 120px 20px 120px; } }
   article hr {
-    border: 1px solid transparent; }
+    border: 1px solid rgba(0, 0, 0, 0); }
     @media only screen and (min-width: 281px) and (max-width: 340px) {
       article hr {
         margin: 30px 0 30px 0; } }
