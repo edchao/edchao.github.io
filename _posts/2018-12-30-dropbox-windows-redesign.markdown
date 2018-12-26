@@ -1,8 +1,8 @@
 ---
 layout: article
-title:  "Dropbox Mobile Redesign"
+title:  "Dropbox for Windows Redesign"
 date:   2018-03-09 13:57:09
-headline: "Redesigning Dropbox for mobile"
+headline: "Redesigning Dropbox for Windows UWP"
 co: "Dropbox"
 tags:
 - ui
