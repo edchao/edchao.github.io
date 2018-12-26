@@ -40,7 +40,7 @@ The biggest difference between the old and new design is the introduction of the
 ## Pop out windows
 
 <figure>
-<img class="lazy" data-original="{{edchao.github.io}}/assets/img_dbxmobile_OS.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_uwp_popout.jpg" />
 </figure>
 
 The new design takes advantage of Windows' multi window support. A single click now pops the preview out of the main window so you can focus on collaborating on it or simply browse elsewhere while keeping your place.
@@ -51,7 +51,7 @@ The new design takes advantage of Windows' multi window support. A single click 
 ## Responsive and Touch friendly
 
 <figure>
-<img class="lazy" data-original="{{edchao.github.io}}/assets/img_dbxmobile_home.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_uwp_responsive.jpg" />
 </figure>
 
 Do you use your finger or a mouse? How about both? Dropbox for S Mode supports touch friendly tap targets and responsive window handling. That means it's great for big and little screens (and fingers) alike.
