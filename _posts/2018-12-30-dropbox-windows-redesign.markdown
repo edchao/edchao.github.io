@@ -1,14 +1,14 @@
 ---
 layout: article
-title:  "Dropbox for Windows Redesign"
+title:  "Dropbox for Windows"
 date:   2018-03-09 13:57:09
-headline: "Redesigning Dropbox for Windows UWP"
+headline: "Redesigning Dropbox for Windows desktop"
 co: "Dropbox"
 tags:
 - ui
 - interaction
 categories:
-- 
+- published
 ---
 
 
@@ -21,7 +21,7 @@ categories:
 ## A desktop file browser with superpowers
 
 
-Dropbox is about more than cloud storage and file syncing. With tools like sharing, commenting, annotations and file activity, Dropbox keeps expanding its suite of features for collaborating on your files. The redesign of Dropbox for Windows S Mode brings these superpowers to the foreground, making the place where you browse and organize your files the same place where you collaborate on them.
+Dropbox is about more than cloud storage and file syncing. With tools like sharing, commenting, annotations and file activity, Dropbox keeps expanding its suite of features for collaborating on your files. The redesign of **Dropbox for Windows S Mode** brings these superpowers to the foreground, making the place where you browse and organize your files the same place where you collaborate on them.
 
 ---
 
