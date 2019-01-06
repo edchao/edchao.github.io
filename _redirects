@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+http://loving-mcclintock-ad0346.netlify.com/* http://www.thatedchao.com/:splat 301!
