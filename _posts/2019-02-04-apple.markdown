@@ -1,0 +1,22 @@
+---
+layout: article
+title:  "Apple Human Interface"
+date:   2019-02-04 10:09:00
+headline: "Designing Human Interfaces"
+co: "Apple"
+tags:
+- ui
+- interaction
+categories:
+- published
+---
+
+
+<figure>
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_apple.jpg" />
+</figure>
+
+<!--more-->
+
+<p> "We used to dream about this stuff. Now we get to build it. It’s pretty great." ―SJ </p>
+---
