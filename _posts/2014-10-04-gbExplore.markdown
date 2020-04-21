@@ -44,3 +44,5 @@ The wonderful thing about cards, is that it modularizes information.  It makes t
 #### Feeling like a single screen app
 
 In order to maintain a feeling of simplicity, I felt it was important to make the app essentially a single screen experience.  To do this, drill down interactions were repackaged into expanding cards.  This way you don't feel like you're leaving the main screen, you're just magnifying an element on it.
+
+---

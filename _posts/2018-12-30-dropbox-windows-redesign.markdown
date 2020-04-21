@@ -80,3 +80,5 @@ Working out of Dropbox for Windows S mode is the same as working out of file exp
 ---
 
 ### Enjoy collaborating on Windows. <a href="https://www.microsoft.com/en-us/p/dropbox-for-windows-10-in-s-mode-xbox-hololens/9wzdncrfj0pk?activetab=pivot:overviewtab">Download Dropbox from the Windows App Store</a>.
+
+---

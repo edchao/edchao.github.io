@@ -78,3 +78,5 @@ With the iPhone 6 we saw the introduction of 3D touch. Dropbox used this new tec
 ---
 
 ### Get Dropbox on the go. <a href="https://itunes.apple.com/us/app/dropbox/id327630330?mt=8">Download Dropbox from the App Store</a>.
+
+---

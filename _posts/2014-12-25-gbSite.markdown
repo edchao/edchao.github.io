@@ -37,3 +37,5 @@ As I had mentioned previously, before the start of this project I had already pu
 #### Passing on the baton
 
 Unfortunately, my last day did not mark the completion of this project. We had completed the majority of the site but were still short a few pages due to some last-minute marketing needs.  Thankfully, the project was picked up by Pete Lada, and he has done a stellar job in shoring up the gaps and getting it deployed.  You can check it out at guidebook.com
+
+---

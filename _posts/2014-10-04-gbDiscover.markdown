@@ -8,7 +8,7 @@ tags:
 - ui
 - interaction
 categories:
-- published
+
 ---
 
 <figure>
@@ -66,4 +66,6 @@ By getting rid of the "downloaded guide" distinction, we were able to combine th
 
 Over the many weeks we worked on this project, we went from a multiple screen on-boarding process with a two screen app, to a single screen experience.  At the end of the day we were left with an app that optimized finding and viewing guides while simultaneously encouraging exploration of other guides.
 
-<a href="https://itunes.apple.com/us/app/guidebook/id428713847?mt=8">Download from the App Store</a>
+### <a href="https://itunes.apple.com/us/app/guidebook/id428713847?mt=8">Download from the App Store</a>
+
+---

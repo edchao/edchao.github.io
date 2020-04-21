@@ -29,3 +29,5 @@ Post reasons why you are for or against any issue. Contribute an issue, post a r
 <br>
 
 This was my first foray into Swift and Parse so the app still has a ways to go.  On top of what's already there, I would eventually like to allow users to create groups so that issues and reasons can be shared exclusively amongst friends. If you're interested in testing <strong> ForAgainst</strong> out, <a href="https://twitter.com/edchao"> send me a tweet</a>.
+
+---
