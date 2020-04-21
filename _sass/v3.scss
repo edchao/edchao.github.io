@@ -221,7 +221,7 @@ ul.hero_contact {
 
   .grid_card_headline{
     font-size: 30px;
-    line-height: 1.5em;
+    line-height: 1.2em;
     font-weight: $weight_bold;
     color: $color_text;
     letter-spacing: $tracking_headline;
@@ -532,7 +532,7 @@ figure {
     width: 100%;
     margin: 0 0 0 0;
     @media (prefers-color-scheme: dark) {
-      opacity: 0.8;
+      opacity: $img_opacity_dark;
     }
   }
 }
