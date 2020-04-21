@@ -120,6 +120,9 @@ header > .title {
   margin-bottom: 32px;
   background-image: url(../assets/icon_glyph.png);
   background-size: 100%;
+  @media (prefers-color-scheme: dark) {
+    background-image: url(../assets/icon_glyph_dark.png);
+  }
 }
 
 .hero_name {
@@ -137,10 +140,14 @@ ul.hero_contact {
 
   a {
     color: $color_text;
+    @media (prefers-color-scheme: dark) {
+      color: $color_text_dark;
+    }
   }
 
   a:hover {
     color: $color_link;
+    @media (prefers-color-scheme: dark) {color:$color_link_dark}
   }
 
   li {
@@ -149,6 +156,7 @@ ul.hero_contact {
     line-height: 24px;
     margin-right: 8px;
   }
+
 }
 
 /*GRID
@@ -171,8 +179,13 @@ ul.hero_contact {
   margin-bottom: 32px;
 
   &:hover {
-    .grid_card_headline, .grid_card_co, .grid_card_date{
+    .grid_card_headline, .grid_card_co, .grid_card_date,{
       color: $color_link;
+      @media (prefers-color-scheme: dark) {color:$color_link_dark}
+    }
+    .grid_card_co:before{
+      background-color: $color_link;
+      @media (prefers-color-scheme: dark) {background-color:$color_link_dark}
     }
     figure {
       // transform: scale(0.96, 0.96)
@@ -223,7 +236,9 @@ ul.hero_contact {
     @include respond-to(tablet){
       font-size: 24px;
     }
-
+    @media (prefers-color-scheme: dark) {
+      color: $color_text_dark;
+    }
   }
 
   .grid_card_co{
@@ -267,6 +282,9 @@ ul.hero_contact {
       line-height: 10px;
     }
 
+    @media (prefers-color-scheme: dark) {
+      color: $color_text_dark;
+    }
   }
 
   .grid_card_date{
@@ -279,6 +297,10 @@ ul.hero_contact {
     @include respond-to(tablet){
       font-size: 10px;
     }
+    @media (prefers-color-scheme: dark) {
+      color: $color_text_dark;
+    }
+
   }
 
   figure {
@@ -384,6 +406,7 @@ ul.hero_contact {
   text-align: center;
   margin: 0 auto;
   color: $color_link;
+  @media (prefers-color-scheme: dark) {background-color:$color_link_dark}
   cursor: pointer;
 }
 
@@ -508,6 +531,9 @@ figure {
     position: relative;
     width: 100%;
     margin: 0 0 0 0;
+    @media (prefers-color-scheme: dark) {
+      opacity: 0.8;
+    }
   }
 }
 

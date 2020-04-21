@@ -31,13 +31,19 @@
 /* #Basic Styles
 ================================================== */
 	body {
-		background: #fff;
+		background: $color_body;
 		font-family: $font_system;
 		font-size: 16px;
 		color: $color_text;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
+
+    @media (prefers-color-scheme: dark) {
+      background: $color_body_dark;
+      color: $color_text_dark;
+    }
  }
+
 
 
 /* #Typography
@@ -46,6 +52,10 @@ h1, h2, h3, h4, h5, h6 {
 	color: $color_text;
 	font-weight: 400;
 	margin-bottom: 20px;
+
+  @media (prefers-color-scheme: dark) {
+    color: $color_text_dark;
+  }
 }
 
 h1 			{ font-size: 30px; line-height: 1.5; }
@@ -75,5 +85,15 @@ pre {
 
 /* #Links
 ================================================== */
-	a { color: $color_link; text-decoration: none; outline: 0; }
-	a:hover, a:focus { color: $color_link; }
+	a {
+    color: $color_link; text-decoration: none; outline: 0;
+    @media (prefers-color-scheme: dark) {
+      color: $color_link_dark;
+    }
+  }
+	a:hover, a:focus {
+    color: $color_link;
+    @media (prefers-color-scheme: dark) {
+      color: $color_link_dark;
+    }
+  }
