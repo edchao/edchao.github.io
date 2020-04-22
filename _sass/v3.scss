@@ -354,6 +354,9 @@ ul.hero_contact {
   display: block;
   transition: all 0.25s ease-in-out;
 
+  @media (prefers-color-scheme: dark) {
+    background-color: rgba(0,0,0,0.9);
+  }
 
   &.hidden {
     display: none;
@@ -385,6 +388,10 @@ ul.hero_contact {
   padding: 40px;
   border-radius: 8px;
   transition: all 0.3s ease-in-out;
+
+  @media (prefers-color-scheme: dark) {
+    background-color: #222;
+  }
 }
 
 .modal_message {
@@ -406,8 +413,11 @@ ul.hero_contact {
   text-align: center;
   margin: 0 auto;
   color: $color_link;
-  @media (prefers-color-scheme: dark) {background-color:$color_link_dark}
+  @media (prefers-color-scheme: dark) {color:$color_link_dark}
   cursor: pointer;
+
+
+
 }
 
 /*ARTICLE
