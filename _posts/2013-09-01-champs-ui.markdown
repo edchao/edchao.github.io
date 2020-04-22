@@ -7,7 +7,6 @@ co: "Quark"
 tags:
 - ui
 categories:
-- published
 
 
 ---

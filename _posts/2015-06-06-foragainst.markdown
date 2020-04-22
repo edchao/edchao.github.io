@@ -8,7 +8,6 @@ tags:
 - ui
 - interaction
 categories:
-- published
 ---
 
 <figure>
