@@ -28,6 +28,14 @@
   }
 }
 
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
 .container {
   @include respond-to(mobile){
     width: $mobile;
